@@ -1,5 +1,5 @@
 {
-.appVersion = "3223";
+.appVersion = "3225";
 .formatVersion = 3;
 DisplayStrings = (
 "THE QUICK BROWN
@@ -15,7 +15,7 @@ Aardvark Ablution Acrimonious Adventures Aeolian Africa Agamemnon Ahoy Aileron A
 A
 );
 date = "2023-10-16 11:25:55 +0000";
-familyName = VER026;
+familyName = Wheatpaste;
 fontMaster = (
 {
 iconName = Bold;
