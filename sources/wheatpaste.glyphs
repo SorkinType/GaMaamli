@@ -301,7 +301,9 @@ YNYOYPYQYRYSYTYUYVYWYXYYZY
 ZAZBZCZDZEZFZGZHZIZJZKZLZMZ
 ZNZOZPZQZRZSZTZUZVZWZXZYZZ
 
-AARDVARK ABLUTION ACRIMONIOUS ADVENTURES AEOLIAN AFRICA AGAMEMNON AHOY AILERON AJAX AKIMBO ALTRUISM AMERICA ANECDOTE AORTA APTITUDE AQUARIUM ARCADE ASPARTAME ATTRITION AURELIUS AVUNCULAR AWNING AXMINSTER AYERS AZURE BANISHMENT BENIGHTED BHAGAVAD BIBLICAL BJORN BLANCMANGE BOLTON BRUSQUE BURNISH BWANA BYZANTIUM CABBALA CETACEAN CHARLEMAGNE CICERO CLAMOROUS CNIDARIAN C"
+AARDVARK ABLUTION ACRIMONIOUS ADVENTURES AEOLIAN AFRICA AGAMEMNON AHOY AILERON AJAX AKIMBO ALTRUISM AMERICA ANECDOTE AORTA APTITUDE AQUARIUM ARCADE ASPARTAME ATTRITION AURELIUS AVUNCULAR AWNING AXMINSTER AYERS AZURE BANISHMENT BENIGHTED BHAGAVAD BIBLICAL BJORN BLANCMANGE BOLTON BRUSQUE BURNISH BWANA BYZANTIUM CABBALA CETACEAN CHARLEMAGNE CICERO CLAMOROUS CNIDARIAN C",
+"hɑh",
+"ɑ"
 );
 customParameters = (
 {
@@ -13231,7 +13233,7 @@ unicode = 7843;
 glyphname = "alpha-latin";
 kernLeft = "alpha-latin";
 kernRight = "alpha-latin";
-lastChange = "2024-03-25 03:27:00 +0000";
+lastChange = "2024-03-25 21:02:45 +0000";
 layers = (
 {
 background = {
@@ -13265,96 +13267,79 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(531,653,o),
-(533,658,o),
-(533,661,cs),
-(533,664,o),
-(531,666,o),
-(527,666,cs),
-(505,666,o),
-(419,598,o),
-(396,555,cs),
-(335,440,o),
-(344,431,o),
-(332,320,cs),
-(324,248,o),
-(321,177,o),
-(314,106,cs),
-(312,93,o),
-(311,79,o),
-(311,67,cs),
-(311,27,o),
-(322,-3,o),
-(372,-3,cs),
-(380,-3,o),
-(389,-2,o),
-(400,0,cs),
-(430,5,o),
-(557,138,o),
-(522,132,cs),
-(509,130,o),
-(498,129,o),
-(489,129,cs),
-(460,129,o),
-(452,140,o),
-(452,161,cs),
-(452,176,o),
-(456,195,o),
-(458,218,cs),
-(465,283,o),
-(479,348,o),
-(486,412,cs),
-(500,535,o),
-(475,546,o),
-(528,647,cs)
-);
-},
-{
-closed = 1;
-nodes = (
-(392,496,o),
-(542,646,o),
-(533,665,cs),
-(522,690,o),
-(482,701,o),
-(434,701,cs),
-(376,701,o),
-(308,684,o),
-(272,654,cs),
-(158,561,o),
-(0,288,o),
-(0,120,cs),
-(0,48,o),
-(29,-4,o),
-(104,-14,cs),
-(227,-31,o),
-(406,179,o),
-(422,246,cs),
-(426,262,o),
-(390,297,o),
-(374,297,cs),
-(371,297,o),
-(369,296,o),
-(368,292,cs),
-(324,111,o),
-(253,128,o),
-(252,128,cs),
-(175,139,o),
-(151,199,o),
-(151,269,cs),
-(151,380,o),
-(211,517,o),
-(212,518,cs),
-(225,529,o),
-(275,544,o),
-(318,544,cs),
-(347,544,o),
-(373,537,o),
-(383,517,cs)
+(440,5,o),
+(567,138,o),
+(532,132,cs),
+(519,130,o),
+(508,129,o),
+(499,129,cs),
+(471,129,o),
+(463,140,o),
+(463,162,cs),
+(463,176,o),
+(466,195,o),
+(468,218,cs),
+(475,283,o),
+(489,348,o),
+(496,412,cs),
+(509,528,o),
+(524,622,o),
+(529,647,cs),
+(534,676,o),
+(484,691,o),
+(427,691,cs),
+(372,691,o),
+(311,678,o),
+(282,654,cs),
+(168,561,o),
+(10,288,o),
+(10,120,cs),
+(10,48,o),
+(39,-4,o),
+(114,-14,cs),
+(237,-31,o),
+(416,179,o),
+(432,246,cs),
+(436,262,o),
+(400,297,o),
+(384,297,cs),
+(381,297,o),
+(379,296,o),
+(378,292,cs),
+(334,111,o),
+(263,128,o),
+(262,128,cs),
+(185,139,o),
+(161,199,o),
+(161,269,cs),
+(161,380,o),
+(221,517,o),
+(222,518,cs),
+(241,533,o),
+(312,549,o),
+(355,549,cs),
+(375,549,o),
+(389,546,o),
+(389,537,cs),
+(389,525,o),
+(355,435,o),
+(342,320,cs),
+(334,248,o),
+(331,177,o),
+(324,106,cs),
+(322,92,o),
+(321,77,o),
+(321,64,cs),
+(321,27,o),
+(331,-3,o),
+(381,-3,cs),
+(390,-3,o),
+(399,-2,o),
+(410,0,cs)
 );
 }
 );
-width = 534;
+width = 558;
 }
 );
 unicode = 593;
