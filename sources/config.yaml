@@ -1,5 +1,4 @@
 sources:
-  - GaMaamli.glyphs
-axisOrder:
-
-familyName: Ga Maamli
+        - GaMaamli.glyphs
+    familyName: Ga Maamli
+    buildVariable: false
