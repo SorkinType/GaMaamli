@@ -88152,7 +88152,7 @@ key = copyrights;
 values = (
 {
 language = dflt;
-value = "Copyright 2019 The Ga Maamli Project Authors (https://github.com/SorkinType/Ga-Maamli)";
+value = "Copyright 2019 The GaMaamli Project Authors (https://github.com/SorkinType/Ga-Maamli)";
 }
 );
 },
@@ -88190,15 +88190,6 @@ value = "Sorkin Type Co.";
 {
 key = manufacturerURL;
 value = "http://sorkintype.com";
-},
-{
-key = postscriptFullNames;
-values = (
-{
-language = dflt;
-value = "Ga Maamli v4";
-}
-);
 },
 {
 key = vendorID;
