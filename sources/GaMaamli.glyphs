@@ -62,7 +62,7 @@ value = 1;
 }
 );
 date = "2024-04-06 04:57:21 +0000";
-familyName = "Ga Maamli";
+familyName = GaMaamli;
 featurePrefixes = (
 {
 automatic = 1;
