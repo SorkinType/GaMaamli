@@ -1,4 +1,4 @@
 sources:
-        - GaMaamli.glyphs
-    familyName: GaMaamli
-    buildVariable: false
+  - GaMaamli.glyphs
+familyName: GaMaamli
+buildVariable: false
