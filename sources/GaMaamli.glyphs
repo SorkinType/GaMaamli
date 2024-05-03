@@ -1,190 +1,6 @@
 {
 .appVersion = "3303";
 .formatVersion = 3;
-DisplayStrings = (
-"hǤh",
-"HHĦh",
-"ʔʕHɂH",
-"hƁh oƁo
-hƇh oƇo
-hƊh oƊo
-hƑh oƑo
-hƓh oƓo
-hꞪh oꞪo
-hƘh oƘo
-hƝh oƝo 
-hƤh 0Ƥ0
-hƬh oƬo
-hƲh oƲo
-hⱲh oⱲo 
-hƳh oƳo
-hɓh oɓo
-hƈh hƈh 
-hɗh oɗo
-hɠh oɠo
-hɦh oɦo
-hɲh oɲo
-hƥh oƥo
-hƭh oƭo
-hʋh oʋo
-hⱳh oⱳo
-hƴh oƴo
-L-h
-C-h
-s?s
-nireid 
-(R)
-TEHEYDIV 
-T)
-P)
-x)
-hh–Hh
-TEHCCDIV 
-nindid 
-p)
-TEHPUDIV 
-y)
-(N)
-(j
-Ufider 
-TEHIIDIV 
-(A
-Inider 
-F)
-t)
-Ejider 
-z)
-E)
-g//g
-G.k
-(M
-(t
-nisvid 
-e«h
-Etider 
-nipkid 
-x-
-TEHRRDIV 
-o;o
-TEHSYDIV 
-niggid 
-TEHAADIV 
-nihzid 
-o;
-e!
-ninjid 
-TEHJIDIV 
-t?
-Ajider 
-Ajider 
-nitwid 
-Exider 
-nissid 
-nixsid 
-Szider 
-nigrid 
-Xuider 
-a?
-l)
-°B
-Qoider 
-TEHEMDIV 
-niutid 
-niexid 
-TEHEVDIV 
-u!
-TEHPYDIV 
-nioyid 
-f,g
-nijyid 
-TEHGUDIV 
-nifzid 
-s—
-niztid 
-N)
-z-
-Syider 
-e-g
-TEHCUDIV 
-K-
-Qaider 
-Ghider 
-Baider 
-Ubider 
-TEHTADIV 
-Grider 
-nievid 
-nievid 
-l:
-f-
-nippid 
-TEHKYDIV 
-A.
-Drider 
-niozid 
-s//s
-Azider 
-T.
-\"Q
-a;
-niddid 
-TEHCMDIV 
-TEHPPDIV 
-nirrid 
-niumid 
-nigwid 
-TEHAMDIV 
-TEHIADIV 
-nieeid 
-nisaid 
-nipsid 
-TEHEWDIV 
-TEHGSDIV 
-nifpid 
-E.
-Eyider 
-Geider 
-nibbid 
-\"Ĵhjh\"
-\"Ĵ
-TEHKSDIV 
-nifoid 
-TEHSJDIV 
-TEHKPDIV 
-niekid 
-TEHCSDIV 
-Noider 
-nicjid 
-TEHAPDIV 
-nigid 
-nibwid 
-nidoid 
-nigvid 
-TEHKVDIV 
-nieyid 
-Vider 
-nighid 
-TEHKUDIV 
-TEHDNDIV 
-niplid 
-(q)",
-"6ƷƑǦƓḤꞪꞍIÍǏÎÏḮỊÌƖƗĨƘḼḶḾṊṄṆƝÑŊÓǑÔỘÖȪỌÒŌṒṐƆØǾṌŒƤɌⱤŠṢṰṬƬṮƮɄÜỤŰŪƱŨƔƲɅẂŴẄẀⱲỲƳẒꞋ áăǎâậäǟàɑāãḅɓčƈḓđḍɗḏɖéȩêệëẹèēɛʃẽǝəʒƒǧɠḥɦíǐîïḯịìɩɨĩƙḽḷḿṋṅṇɲñŋóǒôộöȫọòōṓṑɔøǿṍœƥɽšṣṱṭƭhṯʈʉüụűūʊũɣʋʌẃŵẅẁⱳỳƴẓꞌ",
-"̦ț",
-"ƁƇƊƑƓꞪƘƝƤƬƮƲⱲƳɓƈɗɠɦƙɲƥʈủửʋⱳƴ",
-"h6h  o60
-h9h 090",
-"AÆǼ",
-"ǣ",
-"æǽ",
-"№",
-"№%",
-"/commaaccentcomb.loclMAH/Lcommaaccent.loclMAH/Ncommaaccent.loclMAH/lcommaaccent.loclMAH/ncommaaccent.loclMAH",
-"ɐ",
-"Ƀƀ",
-"Ɂ",
-m,
-""
-);
 classes = (
 {
 automatic = 1;
@@ -271,7 +87,6 @@ feature frac;
 feature ordn;
 feature fwid;
 feature ss01;
-feature ss02;
 ";
 tag = aalt;
 },
@@ -500,6 +315,16 @@ sub underscore by underscore.full;
 sub hyphen by hyphen.full;
 ";
 tag = fwid;
+},
+{
+code = "sub a by A;";
+labels = (
+{
+language = dflt;
+value = "";
+}
+);
+tag = ss01;
 }
 );
 fontMaster = (
