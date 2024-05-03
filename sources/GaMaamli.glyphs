@@ -236,7 +236,7 @@ name = "Export TrueType Hints";
 value = 1;
 }
 );
-date = "2024-05-03 14:19:30 +0000";
+date = "2024-05-03 15:01:04 +0000";
 familyName = "Ga Maamli";
 featurePrefixes = (
 {
@@ -479,6 +479,7 @@ code = "pos @Uppercase <5 0 10 0>;
 tag = cpsp;
 },
 {
+automatic = 1;
 code = "sub space by emspace;
 sub ampersand by ampersand.full;
 sub asterisk by asterisk.full;
