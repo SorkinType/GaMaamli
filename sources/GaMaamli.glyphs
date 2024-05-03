@@ -479,7 +479,6 @@ code = "pos @Uppercase <5 0 10 0>;
 tag = cpsp;
 },
 {
-automatic = 1;
 code = "sub space by emspace;
 sub ampersand by ampersand.full;
 sub asterisk by asterisk.full;
@@ -498,34 +497,8 @@ sub semicolon by semicolon.full;
 sub slash by slash.full;
 sub underscore by underscore.full;
 sub hyphen by hyphen.full;
-sub braceleft by braceleft.full;
-sub braceright by braceright.full;
-sub bracketleft by bracketleft.full;
-sub bracketright by bracketright.full;
-sub parenleft by parenleft.full;
-sub parenright by parenright.full;
 ";
 tag = fwid;
-},
-{
-code = "sub @Uppercase by @Lowercase;";
-labels = (
-{
-language = dflt;
-value = "";
-}
-);
-tag = ss01;
-},
-{
-code = "sub @Lowercase by @Uppercase;";
-labels = (
-{
-language = dflt;
-value = "";
-}
-);
-tag = ss02;
 }
 );
 fontMaster = (
@@ -52812,7 +52785,7 @@ key = designers;
 values = (
 {
 language = dflt;
-value = "Ama Diaka, Annertey";
+value = "Afotey Clement Nii Odai, Ama Diaka, David Abbey-Thompson";
 }
 );
 },
