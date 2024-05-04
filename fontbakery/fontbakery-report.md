@@ -1018,32 +1018,32 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: tifinagh, canadian-aboriginal, yi</li>
+<li>U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi</li>
 <li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, math, cherokee</li>
-<li>U+0305 COMBINING OVERLINE: try adding one of: gothic, glagolitic, elbasan, math, coptic</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: syriac, old-permic, malayalam, tifinagh, math, tai-le, canadian-aboriginal, coptic</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, cherokee, tifinagh, coptic</li>
+<li>U+0305 COMBINING OVERLINE: try adding one of: gothic, elbasan, coptic, glagolitic, math</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: canadian-aboriginal, old-permic, malayalam, syriac, coptic, tifinagh, math, tai-le</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition</li>
 <li>U+031A COMBINING LEFT ANGLE ABOVE: not included in any glyphset definition</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
 <li>U+031C COMBINING LEFT HALF RING BELOW: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: syriac, cherokee</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: cherokee, syriac</li>
 <li>U+0325 COMBINING RING BELOW: try adding syriac</li>
 <li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
 <li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
 <li>U+032C COMBINING CARON BELOW: not included in any glyphset definition</li>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding syriac</li>
-<li>U+0330 COMBINING TILDE BELOW: try adding one of: syriac, math, cherokee</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: syriac, gothic, tifinagh, caucasian-albanian, cherokee</li>
+<li>U+0330 COMBINING TILDE BELOW: try adding one of: math, cherokee, syriac</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: gothic, syriac, caucasian-albanian, cherokee, tifinagh</li>
 <li>U+0332 COMBINING LOW LINE: not included in any glyphset definition</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0339 COMBINING RIGHT HALF RING BELOW: not included in any glyphset definition</li>
@@ -1102,11 +1102,11 @@ definitions.</p>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: siddham, tai-tham, duployan, buginese, tibetan, adlam, newa, takri, mende-kikakui, telugu, gunjala-gondi, bhaiksuki, warang-citi, dogra, bengali, new-tai-lue, hanifi-rohingya, tamil, limbu, kayah-li, caucasian-albanian, rejang, music, tai-viet, tagbanwa, oriya, sundanese, javanese, sinhala, sharada, nko, tagalog, wancho, tai-le, kharoshthi, thaana, syloti-nagri, phags-pa, kannada, myanmar, manichaean, chakma, khudawadi, khojki, syriac, ahom, elbasan, symbols, brahmi, gurmukhi, osage, soyombo, hebrew, mandaic, saurashtra, batak, tifinagh, math, khmer, hanunoo, cham, meetei-mayek, armenian, yi, gujarati, malayalam, psalter-pahlavi, lepcha, sogdian, modi, mahajani, coptic, masaram-gondi, kaithi, grantha, pahawh-hmong, mongolian, balinese, miao, devanagari, bassa-vah, thai, old-permic, zanabazar-square, canadian-aboriginal, tirhuta, marchen, lao, buhid</li>
-<li>U+3003 DITTO MARK: try adding one of: yi, phags-pa, chinese-simplified, chinese-hongkong, japanese, chinese-traditional</li>
-<li>U+3008 LEFT ANGLE BRACKET: try adding one of: yi, phags-pa, chinese-simplified, chinese-hongkong, japanese, tai-le, chinese-traditional</li>
-<li>U+3009 RIGHT ANGLE BRACKET: try adding one of: yi, phags-pa, chinese-simplified, chinese-hongkong, japanese, tai-le, chinese-traditional</li>
+<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: newa, buginese, cham, miao, adlam, chakma, mende-kikakui, sundanese, tai-tham, pahawh-hmong, gurmukhi, oriya, thaana, armenian, tibetan, psalter-pahlavi, math, sharada, telugu, limbu, lepcha, grantha, old-permic, caucasian-albanian, syriac, manichaean, mongolian, symbols, duployan, elbasan, myanmar, phags-pa, kaithi, canadian-aboriginal, tifinagh, buhid, devanagari, khmer, khojki, khudawadi, kayah-li, hanifi-rohingya, tai-viet, saurashtra, kannada, dogra, coptic, sinhala, siddham, zanabazar-square, meetei-mayek, kharoshthi, takri, malayalam, sogdian, lao, masaram-gondi, bhaiksuki, thai, music, hebrew, warang-citi, soyombo, modi, wancho, ahom, syloti-nagri, tagalog, bassa-vah, nko, tamil, hanunoo, tirhuta, bengali, brahmi, rejang, mahajani, batak, yi, gunjala-gondi, tai-le, gujarati, new-tai-lue, tagbanwa, osage, marchen, balinese, mandaic, javanese</li>
+<li>U+3003 DITTO MARK: try adding one of: chinese-traditional, chinese-simplified, japanese, chinese-hongkong, phags-pa, yi</li>
+<li>U+3008 LEFT ANGLE BRACKET: try adding one of: chinese-traditional, chinese-simplified, japanese, chinese-hongkong, phags-pa, tai-le, yi</li>
+<li>U+3009 RIGHT ANGLE BRACKET: try adding one of: chinese-traditional, chinese-simplified, japanese, chinese-hongkong, phags-pa, tai-le, yi</li>
 <li>U+301C WAVE DASH: try adding japanese</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
@@ -1238,12 +1238,52 @@ definitions.</p>
 </thead>
 <tbody>
 <tr>
+<td align="left">sok_Latn (Sokoro)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">fue_Latn (Fulfulde, Borgu)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
 <td align="left">mor_Latn (Moro)</td>
 <td align="left">Some base glyphs were missing: Ꟈ, ꟈ</td>
 </tr>
 <tr>
 <td align="left">^</td>
 <td align="left">Shaper produced a .notdef</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">xsm_Latn (Kasem)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">dag_Latn (Dagbani)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">khq_Latn (Koyra Chiini)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">bum_Latn (Bulu)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">ekm_Latn (Elip)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">dzg_Latn (Dazaga)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">gnd_Latn (Zulgo-Gemzek)</td>
+<td align="left">The locl feature did not affect Eng</td>
 </tr>
 <tr>
 <td align="left">pkb_Latn (Pokomo)</td>
@@ -1262,12 +1302,156 @@ definitions.</p>
 <td align="left">Shaper produced a .notdef</td>
 </tr>
 <tr>
+<td align="left">csk_Latn (Jola-Kasa)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">xon_Latn (Konkomba)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">fuq_Latn (Central-Eastern Niger Fulfulde)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">ahl_Latn (Igo)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">ybb_Latn (Yemba)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">yam_Latn (Yamba)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">shz_Latn (Syenara Senoufo)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">ken_Latn (Kenyang)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">fuc_Latn (Pulaar)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">byv_Latn (Medumba)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">lg_Latn (Ganda)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">kye_Latn (Krache)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
 <td align="left">bqj_Latn (Bandial)</td>
 <td align="left">Some base glyphs were missing: ᵽ, Ᵽ</td>
 </tr>
 <tr>
 <td align="left">^</td>
 <td align="left">Shaper produced a .notdef</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">bm_Latn (Bambara)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">nko_Latn (Nkonya)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">ddn_Latn (Dendi)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">gde_Latn (Gude)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">nhb_Latn (Beng)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">kmy_Latn (Koma)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">gng_Latn (Ngangam)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">mgo_Latn (Metaʼ)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">bzx_Latn (Bozo, Hainyaxo)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">gkp_Latn (Kpelle, Guinea)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">ted_Latn (Krumen, Tepo)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">pug_Latn (Phuie)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">lam_Latn (Lamba)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">mdt_Latn (Mbere)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">lok_Latn (Loko)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">bqv_Latn (Koro Wachi)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">xed_Latn (Hdi)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">wwa_Latn (Waama)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">nuv_Latn (Nuni, Northern)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">mls_Latn (Masalit)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">ewo_Latn (Ewondo)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">sig_Latn (Paasaal)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">bkm_Latn (Kom)</td>
+<td align="left">The locl feature did not affect Eng</td>
 </tr>
 <tr>
 <td align="left">rub_Latn (Gungu)</td>
@@ -1286,12 +1470,40 @@ definitions.</p>
 <td align="left">Shaper produced a .notdef</td>
 </tr>
 <tr>
+<td align="left">^</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
 <td align="left">bsc_Latn_GN (Bassari)</td>
 <td align="left">Some base glyphs were missing: Ɉ, ɉ</td>
 </tr>
 <tr>
 <td align="left">^</td>
 <td align="left">Shaper produced a .notdef</td>
+</tr>
+<tr>
+<td align="left">nus_Latn (Nuer)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">sil_Latn (Sisaala, Tumulung)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">ajg_Latn (Aja)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">maw_Latn (Mampruli)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">pnz_Latn (Pana (Central African Republic))</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">lig_Latn (Ligbi)</td>
+<td align="left">The locl feature did not affect Eng</td>
 </tr>
 <tr>
 <td align="left">teo_Latn (Teso)</td>
@@ -1302,8 +1514,32 @@ definitions.</p>
 <td align="left">Shaper produced a .notdef</td>
 </tr>
 <tr>
+<td align="left">kyq_Latn (Kenga)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">bcw_Latn (Bana)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">mur_Latn (Murle)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">hag_Latn (Hanga)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">dgi_Latn (Northern Dagara)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
 <td align="left">tcd_Latn (Tafi)</td>
 <td align="left">Shaper produced a .notdef</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">The locl feature did not affect Eng</td>
 </tr>
 <tr>
 <td align="left">knf_Latn (Mankanya)</td>
@@ -1314,12 +1550,40 @@ definitions.</p>
 <td align="left">Shaper produced a .notdef</td>
 </tr>
 <tr>
+<td align="left">^</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">wan_Latn (Wan)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">fod_Latn (Foodo)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
 <td align="left">tzm_Latn (Central Atlas Tamazight)</td>
 <td align="left">Some base glyphs were missing: Gʷ, Kʷ, gʷ, kʷ</td>
 </tr>
 <tr>
 <td align="left">^</td>
 <td align="left">Shaper produced a .notdef</td>
+</tr>
+<tr>
+<td align="left">mua_Latn (Mundang)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">tnr_Latn (Ménik)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">avn_Latn (Avatime)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">ktj_Latn (Krumen, Plapo)</td>
+<td align="left">The locl feature did not affect Eng</td>
 </tr>
 <tr>
 <td align="left">kss_Latn (Southern Kisi)</td>
@@ -1330,6 +1594,18 @@ definitions.</p>
 <td align="left">Shaper produced a .notdef</td>
 </tr>
 <tr>
+<td align="left">^</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">ade_Latn (Adele)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">nnw_Latn (Southern Nuni)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
 <td align="left">ikx_Latn (Ik)</td>
 <td align="left">Some base glyphs were missing: ʝ, Ʝ</td>
 </tr>
@@ -1338,8 +1614,116 @@ definitions.</p>
 <td align="left">Shaper produced a .notdef</td>
 </tr>
 <tr>
+<td align="left">^</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">dur_Latn (Dii)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">lia_Latn (Limba, West-Central)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">cae_Latn (Lehar)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">mzw_Latn (Deg)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">kdh_Latn (Tem)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">dow_Latn (Doyayo)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">tvu_Latn (Tunen)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">bfa_Latn (Bari)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">xuo_Latn (Kuo)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">ahs_Latn (Ashe)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">vut_Latn (Vute)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">jgo_Latn (Ngomba)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">krs_Latn (Gbaya (Sudan))</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">mbo_Latn (Mbo)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">cko_Latn (Anufo)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">ig_Latn (Igbo)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
 <td align="left">rif_Latn (Riffian (Latin))</td>
 <td align="left">Some mark glyphs were missing: ◌̑</td>
+</tr>
+<tr>
+<td align="left">yat_Latn (Yambeta)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">mfv_Latn (Mandjak)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">taq_Latn (Tamasheq, Latin)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">kpo_Latn (Ikposo)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">mnk_Latn (Mandinka)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">kus_Latn (Kusaal)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">gur_Latn (Frafra)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">cme_Latn (Cerma)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">log_Latn (Logo)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">tem_Latn (Timne)</td>
+<td align="left">The locl feature did not affect Eng</td>
 </tr>
 <tr>
 <td align="left">aeb_Latn (Tunisian Darija)</td>
@@ -1355,11 +1739,31 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach uni0307 to x</td>
+<td align="left">Shaper didn't attach uni0307 to X</td>
 </tr>
 <tr>
 <td align="left">^</td>
 <td align="left">Shaper produced a .notdef</td>
+</tr>
+<tr>
+<td align="left">dyo_Latn (Jola-Fonyi)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">agc_Latn (Agatu)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">gux_Latn (Gourmanchéma)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">gud_Latn (Dida, Yocoboué)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">fmp_Latn (Fe’fe’)</td>
+<td align="left">The locl feature did not affect Eng</td>
 </tr>
 <tr>
 <td align="left">nga_Latn (Ngbaka)</td>
@@ -1370,12 +1774,80 @@ definitions.</p>
 <td align="left">Shaper produced a .notdef</td>
 </tr>
 <tr>
+<td align="left">kib_Latn (Koalib)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">ny_Latn (Nyanja)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">lee_Latn (Lyélé)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">ndv_Latn (Ndut)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">sxw_Latn (Saxwe Gbe)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
 <td align="left">naq_Latn (Nama)</td>
 <td align="left">Some base glyphs were missing: ǀ, ǁ, ǂ, ǃ</td>
 </tr>
 <tr>
 <td align="left">^</td>
 <td align="left">Shaper produced a .notdef</td>
+</tr>
+<tr>
+<td align="left">nza_Latn (Tigon Mbembe)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">dua_Latn (Duala)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">bib_Latn (Bissa)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">agq_Latn (Aghem)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">bim_Latn (Bimoba)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">kvf_Latn (Kabalai)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">dts_Latn (Dogon, Toro So)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">bav_Latn (Vengo)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">ses_Latn (Koyraboro Senni)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">kbp_Latn (Kabiyé)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">laj_Latn (Lango [Uganda])</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">dno_Latn (Ndrulo)</td>
+<td align="left">The locl feature did not affect Eng</td>
 </tr>
 <tr>
 <td align="left">yba_Latn (Yala)</td>
@@ -1402,6 +1874,22 @@ definitions.</p>
 <td align="left">Shaper produced a .notdef</td>
 </tr>
 <tr>
+<td align="left">bza_Latn (Bandi)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">muy_Latn (Muyang)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">kqs_Latn (Kissi, Northern)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">kyf_Latn (Kouya)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
 <td align="left">udu_Latn (Uduk)</td>
 <td align="left">Some base glyphs were missing: T͟H, t͟h</td>
 </tr>
@@ -1411,11 +1899,7 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to P</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to p</td>
+<td align="left">Shaper produced a .notdef</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -1423,15 +1907,7 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to p</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to P</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper produced a .notdef</td>
+<td align="left">The locl feature did not affect Eng</td>
 </tr>
 <tr>
 <td align="left">yre_Latn (Yaouré)</td>
@@ -1442,12 +1918,92 @@ definitions.</p>
 <td align="left">Shaper produced a .notdef</td>
 </tr>
 <tr>
+<td align="left">mwk_Latn (Kita Maninkakan)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">dtm_Latn (Tomo Kan Dogon)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">fuh_Latn (Fulfulde, Western Niger)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">ncu_Latn (Chumburung)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">ttq_Latn (Tawallammat Tamajaq)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">gej_Latn (Gen)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">tuq_Latn (Tedaga)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">dip_Latn (Dinka, Northeastern)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">twq_Latn (Tasawaq)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">sld_Latn (Sissala)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">mbu_Latn (Mbula-Bwazza)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">wci_Latn (Gbe, Waci)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">gjn_Latn (Gonja)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">ntr_Latn (Delo)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">fub_Latn (Fulfulde, Adamawa)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">fuf_Latn (Pular)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
 <td align="left">dnj_Latn_LR (Dan)</td>
 <td align="left">Some base glyphs were missing: Ɵ, Ɵ̀, Ɵ́, Ɵ̂, ɵ, ɵ̀, ɵ́, ɵ̂</td>
 </tr>
 <tr>
 <td align="left">^</td>
+<td align="left">Shaper didn't attach uni0302 to uniA78D</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach gravecomb to uniA78D</td>
+</tr>
+<tr>
+<td align="left">^</td>
 <td align="left">Shaper produced a .notdef</td>
+</tr>
+<tr>
+<td align="left">ife_Latn (Ifè)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">bex_Latn (Jur Modo)</td>
+<td align="left">The locl feature did not affect Eng</td>
 </tr>
 <tr>
 <td align="left">gov_Latn (Goo)</td>
@@ -1456,6 +2012,46 @@ definitions.</p>
 <tr>
 <td align="left">^</td>
 <td align="left">Shaper produced a .notdef</td>
+</tr>
+<tr>
+<td align="left">dop_Latn (Lukpa)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">azo_Latn (Awing)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">bsc_Latn (Bassari)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">ksf_Latn (Bafia)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">spp_Latn (Sénoufo, Supyire)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">kao_Latn (Xaasongaxango)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">las_Latn (Lama (Togo))</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">sav_Latn (Saafi-Saafi)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">nfr_Latn (Nafaanra)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">lgg_Latn (Lugbara)</td>
+<td align="left">The locl feature did not affect Eng</td>
 </tr>
 <tr>
 <td align="left">kzc_Latn (Bondoukou Kulango)</td>
@@ -1470,6 +2066,66 @@ definitions.</p>
 <td align="left">Shaper produced a .notdef</td>
 </tr>
 <tr>
+<td align="left">^</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">mcp_Latn (Makaa)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">bud_Latn (Ntcham)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">yas_Latn (Nugunu)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">bss_Latn (Akoose)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">fan_Latn (Fang)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">avu_Latn (Avokaya)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">pbi_Latn (Parkwa)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">nyb_Latn (Nyangbo)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">ozm_Latn (Koonzime)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">bax_Latn (Bamun, Latin)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">dyu_Latn (Dyula)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">nnh_Latn (Ngiemboon)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">adj_Latn (Adioukrou)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">mas_Latn (Masai)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
 <td align="left">dnj_Latn (Dan)</td>
 <td align="left">Some base glyphs were missing: Ɯ, Ɯ̀, Ɯ́, Ɯ̂, Ɯ̄, Ɯ̋, Ɯ̏, ɤ, ɤ̀, ɤ́, ɤ̂, ɤ̄, ɤ̋, ɤ̏, ɯ, ɯ̀, ɯ́, ɯ̂, ɯ̄, ɯ̋, ɯ̏, Ɤ, Ɤ̀, Ɤ́, Ɤ̂, Ɤ̄, Ɤ̋, Ɤ̏</td>
 </tr>
@@ -1479,31 +2135,11 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach uni030F to ae</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni030F to AE</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni030F to uni028C</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni030F to uni0245</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni030F to uni025B</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni030F to uni0190</td>
-</tr>
-<tr>
-<td align="left">^</td>
 <td align="left">Shaper produced a .notdef</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">The locl feature did not affect Eng</td>
 </tr>
 <tr>
 <td align="left">god_Latn (Godié)</td>
@@ -1512,6 +2148,58 @@ definitions.</p>
 <tr>
 <td align="left">^</td>
 <td align="left">Shaper produced a .notdef</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">bzw_Latn (Basa)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">anv_Latn (Denya)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">cou_Latn (Wamey)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">bsp_Latn (Baga Sitemu)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">idu_Latn (Idoma)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">vai_Latn (Vai (Latin))</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">wo_Latn (Wolof)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">bfd_Latn (Bafut)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">dyi_Latn (Sénoufo, Djimini)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">acd_Latn (Gikyode)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">mfd_Latn (Mendankwe-Nkwen)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">kzr_Latn (Karang)</td>
+<td align="left">The locl feature did not affect Eng</td>
 </tr>
 <tr>
 <td align="left">bas_Latn (Basaa)</td>
@@ -1530,12 +2218,96 @@ definitions.</p>
 <td align="left">Shaper produced a .notdef</td>
 </tr>
 <tr>
+<td align="left">^</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">lns_Latn (Lamnso’)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">daa_Latn (Dangaléat)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">xwe_Latn (Gbe, Xwela)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">knp_Latn (Kwanja)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">nhu_Latn (Noone)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">mcn_Latn (Masana)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">moa_Latn (Mwan)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">dje_Latn (Zarma)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
 <td align="left">bjt_Latn (Balanta-Ganja)</td>
 <td align="left">Some base glyphs were missing: Ŧ, ŧ</td>
 </tr>
 <tr>
 <td align="left">^</td>
 <td align="left">Shaper produced a .notdef</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">nym_Latn (Nyamwezi)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">gaa_Latn (Ga)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">bbj_Latn (Ghomala)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">biv_Latn (Birifor, Southern)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">nfu_Latn (Mfumte)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">ee_Latn (Ewe)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">pil_Latn (Yom)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">tik_Latn (Tikar)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">meq_Latn (Merey)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">gna_Latn (Kaansa)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">bbo_Latn (Northern Bobo Madaré)</td>
+<td align="left">The locl feature did not affect Eng</td>
 </tr>
 <tr>
 <td align="left">btt_Latn (Bete-Bendi)</td>
@@ -1554,6 +2326,26 @@ definitions.</p>
 <td align="left">Shaper produced a .notdef</td>
 </tr>
 <tr>
+<td align="left">mmu_Latn (Mmaala)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">etu_Latn (Ejagham)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">toq_Latn (Toposa)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">lmp_Latn (Limbum)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">kqp_Latn (Kimré)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
 <td align="left">ktz_Latn (Juǀʼhoan)</td>
 <td align="left">Some base glyphs were missing: ǀ, ǁ, ǂ, ǃ</td>
 </tr>
@@ -1562,8 +2354,120 @@ definitions.</p>
 <td align="left">Shaper produced a .notdef</td>
 </tr>
 <tr>
+<td align="left">nmg_Latn (Kwasio)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">srr_Latn (Serer)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">boz_Latn (Tiéyaxo Bozo)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">mcu_Latn (Mambila, Cameroon)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">ffm_Latn (Maasina Fulfulde)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">neb_Latn (Toura)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">loq_Latn (Lobala)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">keu_Latn (Akebu)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">kkj_Latn (Kako)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">mnf_Latn (Mundani)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">mfi_Latn (Wandala)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">mgc_Latn (Morokodo)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
 <td align="left">apd_Latn (Sudanese Arabic)</td>
 <td align="left">Some mark glyphs were missing: ◌͟</td>
+</tr>
+<tr>
+<td align="left">ndz_Latn (Ndogo)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">myk_Latn (Mamara Senoufo)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">kia_Latn (Kim)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">tod_Latn (Toma)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">naw_Latn (Nawuri)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">fvr_Latn (Fur)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">saf_Latn (Safaliba)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">mdj_Latn (Mangbetu)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">sbd_Latn (Southern Samo)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">xrb_Latn (Karaboro, Eastern)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">lun_Latn (Lunda)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">soy_Latn (Miyobe)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">gmm_Latn (Gbaya-Mbodomo)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">nku_Latn (Kulango, Bouna)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">ach_Latn (Acoli)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">nmz_Latn (Nawdm)</td>
+<td align="left">The locl feature did not affect Eng</td>
 </tr>
 <tr>
 <td align="left">shi_Latn (Tachelhit (Latin))</td>
@@ -1574,12 +2478,56 @@ definitions.</p>
 <td align="left">Shaper produced a .notdef</td>
 </tr>
 <tr>
+<td align="left">blo_Latn (Anii)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
 <td align="left">ngh_Latn (Nǁng)</td>
 <td align="left">Some base glyphs were missing: ǀ, ǁ, ǂ, ǃ, ʘ</td>
 </tr>
 <tr>
 <td align="left">^</td>
 <td align="left">Shaper produced a .notdef</td>
+</tr>
+<tr>
+<td align="left">sef_Latn (Cebaara Senoufo)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">snf_Latn (Noon)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">bze_Latn (Jenaama Bozo)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">emk_Latn (Maninkakan, Eastern)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">vag_Latn (Vagla)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">lem_Latn (Nomaande)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">tpm_Latn (Tampulma)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">mfq_Latn (Moba)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">mev_Latn (Mano)</td>
+<td align="left">The locl feature did not affect Eng</td>
+</tr>
+<tr>
+<td align="left">yav_Latn (Yangben)</td>
+<td align="left">The locl feature did not affect Eng</td>
 </tr>
 </tbody>
 </table>
@@ -1597,520 +2545,48 @@ definitions.</p>
 </thead>
 <tbody>
 <tr>
-<td align="left">sok_Latn (Sokoro)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">fue_Latn (Fulfulde, Borgu)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
 <td align="left">mor_Latn (Moro)</td>
 <td align="left">Some auxiliary glyphs were missing: Ꟈ, ꟈ</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">xsm_Latn (Kasem)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">dag_Latn (Dagbani)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">khq_Latn (Koyra Chiini)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">bum_Latn (Bulu)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">ekm_Latn (Elip)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">dzg_Latn (Dazaga)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">gnd_Latn (Zulgo-Gemzek)</td>
-<td align="left">No variant glyphs were found for Eng</td>
 </tr>
 <tr>
 <td align="left">pkb_Latn (Pokomo)</td>
 <td align="left">Some auxiliary glyphs were missing: D̯, T̯, d̯, t̯</td>
 </tr>
 <tr>
-<td align="left">csk_Latn (Jola-Kasa)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">xon_Latn (Konkomba)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">fuq_Latn (Central-Eastern Niger Fulfulde)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">ahl_Latn (Igo)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">ybb_Latn (Yemba)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">yam_Latn (Yamba)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">shz_Latn (Syenara Senoufo)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">ken_Latn (Kenyang)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">fuc_Latn (Pulaar)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">byv_Latn (Medumba)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">lg_Latn (Ganda)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">kye_Latn (Krache)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">bqj_Latn (Bandial)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">bm_Latn (Bambara)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">nko_Latn (Nkonya)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">ddn_Latn (Dendi)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">gde_Latn (Gude)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">nhb_Latn (Beng)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">kmy_Latn (Koma)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">gng_Latn (Ngangam)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">mgo_Latn (Metaʼ)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">bzx_Latn (Bozo, Hainyaxo)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">gkp_Latn (Kpelle, Guinea)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">ted_Latn (Krumen, Tepo)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">pug_Latn (Phuie)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">lam_Latn (Lamba)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">mdt_Latn (Mbere)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">lok_Latn (Loko)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">bqv_Latn (Koro Wachi)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">xed_Latn (Hdi)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">wwa_Latn (Waama)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">nuv_Latn (Nuni, Northern)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">mls_Latn (Masalit)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">ewo_Latn (Ewondo)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">sig_Latn (Paasaal)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">bkm_Latn (Kom)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
 <td align="left">rub_Latn (Gungu)</td>
 <td align="left">Some auxiliary glyphs were missing: B̯, b̯</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">nus_Latn (Nuer)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">sil_Latn (Sisaala, Tumulung)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">ajg_Latn (Aja)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">maw_Latn (Mampruli)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">pnz_Latn (Pana (Central African Republic))</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">lig_Latn (Ligbi)</td>
-<td align="left">No variant glyphs were found for Eng</td>
 </tr>
 <tr>
 <td align="left">teo_Latn (Teso)</td>
 <td align="left">Some auxiliary glyphs were missing: ᵃ, ᵉ, ᵋ, ᵒ, ᵓ, ᵘ, ᶤ, ᶶ, ⁱ</td>
 </tr>
 <tr>
-<td align="left">kyq_Latn (Kenga)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">bcw_Latn (Bana)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">mur_Latn (Murle)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">hag_Latn (Hanga)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">dgi_Latn (Northern Dagara)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">tcd_Latn (Tafi)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
 <td align="left">knf_Latn (Mankanya)</td>
 <td align="left">Some auxiliary glyphs were missing: Ŧ, ŧ</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">wan_Latn (Wan)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">fod_Latn (Foodo)</td>
-<td align="left">No variant glyphs were found for Eng</td>
 </tr>
 <tr>
 <td align="left">tzm_Latn (Central Atlas Tamazight)</td>
 <td align="left">Some auxiliary glyphs were missing: Gʷ, Kʷ, gʷ, kʷ</td>
 </tr>
 <tr>
-<td align="left">mua_Latn (Mundang)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">tnr_Latn (Ménik)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">avn_Latn (Avatime)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">ktj_Latn (Krumen, Plapo)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">kss_Latn (Southern Kisi)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">ade_Latn (Adele)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">nnw_Latn (Southern Nuni)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
 <td align="left">ikx_Latn (Ik)</td>
 <td align="left">Some auxiliary glyphs were missing: ʝ, Ʝ</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">dur_Latn (Dii)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">lia_Latn (Limba, West-Central)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">cae_Latn (Lehar)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">mzw_Latn (Deg)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">kdh_Latn (Tem)</td>
-<td align="left">No variant glyphs were found for Eng</td>
 </tr>
 <tr>
 <td align="left">kfo_Latn (Koro)</td>
 <td align="left">No exemplar glyphs were defined for language Koro</td>
 </tr>
 <tr>
-<td align="left">dow_Latn (Doyayo)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">tvu_Latn (Tunen)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">bfa_Latn (Bari)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">xuo_Latn (Kuo)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">ahs_Latn (Ashe)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">vut_Latn (Vute)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">jgo_Latn (Ngomba)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">krs_Latn (Gbaya (Sudan))</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">mbo_Latn (Mbo)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">cko_Latn (Anufo)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">ig_Latn (Igbo)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">yat_Latn (Yambeta)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">mfv_Latn (Mandjak)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">taq_Latn (Tamasheq, Latin)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">kpo_Latn (Ikposo)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">mnk_Latn (Mandinka)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">kus_Latn (Kusaal)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">gur_Latn (Frafra)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">cme_Latn (Cerma)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">log_Latn (Logo)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">tem_Latn (Timne)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
 <td align="left">aeb_Latn (Tunisian Darija)</td>
 <td align="left">Some auxiliary glyphs were missing: Ŧ, ŧ</td>
-</tr>
-<tr>
-<td align="left">dyo_Latn (Jola-Fonyi)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">agc_Latn (Agatu)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">gux_Latn (Gourmanchéma)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">gud_Latn (Dida, Yocoboué)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">fmp_Latn (Fe’fe’)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">kib_Latn (Koalib)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">ny_Latn (Nyanja)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">lee_Latn (Lyélé)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">ndv_Latn (Ndut)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">sxw_Latn (Saxwe Gbe)</td>
-<td align="left">No variant glyphs were found for Eng</td>
 </tr>
 <tr>
 <td align="left">naq_Latn (Nama)</td>
 <td align="left">Some auxiliary glyphs were missing: ǀ, ǁ, ǂ, ǃ</td>
 </tr>
 <tr>
-<td align="left">nza_Latn (Tigon Mbembe)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">dua_Latn (Duala)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
 <td align="left">syi_Latn (Seki)</td>
 <td align="left">No exemplar glyphs were defined for language Seki</td>
-</tr>
-<tr>
-<td align="left">bib_Latn (Bissa)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">agq_Latn (Aghem)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">bim_Latn (Bimoba)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">kvf_Latn (Kabalai)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">dts_Latn (Dogon, Toro So)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">bav_Latn (Vengo)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">ses_Latn (Koyraboro Senni)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">kbp_Latn (Kabiyé)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">laj_Latn (Lango [Uganda])</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">dno_Latn (Ndrulo)</td>
-<td align="left">No variant glyphs were found for Eng</td>
 </tr>
 <tr>
 <td align="left">yba_Latn (Yala)</td>
@@ -2121,224 +2597,28 @@ definitions.</p>
 <td align="left">Some auxiliary glyphs were missing: ꞉, ꞊</td>
 </tr>
 <tr>
-<td align="left">bza_Latn (Bandi)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">muy_Latn (Muyang)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">kqs_Latn (Kissi, Northern)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">kyf_Latn (Kouya)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
 <td align="left">udu_Latn (Uduk)</td>
 <td align="left">Some auxiliary glyphs were missing: T͟H, t͟h</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">No variant glyphs were found for Eng</td>
 </tr>
 <tr>
 <td align="left">yre_Latn (Yaouré)</td>
 <td align="left">Some auxiliary glyphs were missing: ˗, ˮ</td>
 </tr>
 <tr>
-<td align="left">mwk_Latn (Kita Maninkakan)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">dtm_Latn (Tomo Kan Dogon)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">fuh_Latn (Fulfulde, Western Niger)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">ncu_Latn (Chumburung)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">ttq_Latn (Tawallammat Tamajaq)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">gej_Latn (Gen)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">tuq_Latn (Tedaga)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">dip_Latn (Dinka, Northeastern)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">twq_Latn (Tasawaq)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">sld_Latn (Sissala)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">mbu_Latn (Mbula-Bwazza)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">wci_Latn (Gbe, Waci)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">gjn_Latn (Gonja)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">ntr_Latn (Delo)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">fub_Latn (Fulfulde, Adamawa)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">fuf_Latn (Pular)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
 <td align="left">dnj_Latn_LR (Dan)</td>
 <td align="left">Some auxiliary glyphs were missing: Ɵ, Ɵ̀, Ɵ́, Ɵ̂, ɵ, ɵ̀, ɵ́, ɵ̂</td>
-</tr>
-<tr>
-<td align="left">ife_Latn (Ifè)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">bex_Latn (Jur Modo)</td>
-<td align="left">No variant glyphs were found for Eng</td>
 </tr>
 <tr>
 <td align="left">gov_Latn (Goo)</td>
 <td align="left">Some auxiliary glyphs were missing: ɤ, ɤ̀, ɤ́, ɤ̂, Ɤ, Ɤ̀, Ɤ́, Ɤ̂</td>
 </tr>
 <tr>
-<td align="left">dop_Latn (Lukpa)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">azo_Latn (Awing)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">bsc_Latn (Bassari)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">ksf_Latn (Bafia)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">spp_Latn (Sénoufo, Supyire)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">kao_Latn (Xaasongaxango)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">las_Latn (Lama (Togo))</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">sav_Latn (Saafi-Saafi)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">nfr_Latn (Nafaanra)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">lgg_Latn (Lugbara)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">kzc_Latn (Bondoukou Kulango)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">mcp_Latn (Makaa)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">bud_Latn (Ntcham)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">yas_Latn (Nugunu)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">bss_Latn (Akoose)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">fan_Latn (Fang)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">avu_Latn (Avokaya)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">pbi_Latn (Parkwa)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">nyb_Latn (Nyangbo)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">ozm_Latn (Koonzime)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">bax_Latn (Bamun, Latin)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">dyu_Latn (Dyula)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">nnh_Latn (Ngiemboon)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">adj_Latn (Adioukrou)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
 <td align="left">amo_Latn (Amo)</td>
 <td align="left">No exemplar glyphs were defined for language Amo</td>
 </tr>
 <tr>
-<td align="left">mas_Latn (Masai)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
 <td align="left">dnj_Latn (Dan)</td>
 <td align="left">Some auxiliary glyphs were missing: Ɯ, Ɯ̀, Ɯ́, Ɯ̂, Ɯ̄, Ɯ̋, Ɯ̏, ɤ, ɤ̀, ɤ́, ɤ̂, ɤ̄, ɤ̋, ɤ̏, ɯ, ɯ̀, ɯ́, ɯ̂, ɯ̄, ɯ̋, ɯ̏, Ɤ, Ɤ̀, Ɤ́, Ɤ̂, Ɤ̄, Ɤ̋, Ɤ̏</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">No variant glyphs were found for Eng</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -2353,119 +2633,19 @@ definitions.</p>
 <td align="left">Some auxiliary glyphs were missing: ˗</td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">bzw_Latn (Basa)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">anv_Latn (Denya)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">cou_Latn (Wamey)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">bsp_Latn (Baga Sitemu)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">idu_Latn (Idoma)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">vai_Latn (Vai (Latin))</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">wo_Latn (Wolof)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">bfd_Latn (Bafut)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">dyi_Latn (Sénoufo, Djimini)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">acd_Latn (Gikyode)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">mfd_Latn (Mendankwe-Nkwen)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">kzr_Latn (Karang)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
 <td align="left">bas_Latn (Basaa)</td>
 <td align="left">Some auxiliary glyphs were missing: A᷆, A᷇, E᷆, E᷇, I᷆, I᷇, O᷆, O᷇, U᷆, U᷇, a᷆, a᷇, e᷆, e᷇, i᷆, i᷇, o᷆, o᷇, u᷆, u᷇, Ɔ᷆, Ɔ᷇, Ɛ᷆, Ɛ᷇, ɔ᷆, ɔ᷇, ɛ᷆, ɛ᷇</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">lns_Latn (Lamnso’)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">daa_Latn (Dangaléat)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">xwe_Latn (Gbe, Xwela)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">knp_Latn (Kwanja)</td>
-<td align="left">No variant glyphs were found for Eng</td>
 </tr>
 <tr>
 <td align="left">ggn_Latn (Eastern Gurung, Latin)</td>
 <td align="left">No exemplar glyphs were defined for language Eastern Gurung, Latin</td>
 </tr>
 <tr>
-<td align="left">nhu_Latn (Noone)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">mcn_Latn (Masana)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">moa_Latn (Mwan)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">dje_Latn (Zarma)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
 <td align="left">bjt_Latn (Balanta-Ganja)</td>
 <td align="left">Some auxiliary glyphs were missing: Ŧ, ŧ</td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">nym_Latn (Nyamwezi)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
 <td align="left">gaa_Latn (Ga)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
 <td align="left">No variant glyphs were found for uni01A9</td>
 </tr>
 <tr>
@@ -2473,135 +2653,15 @@ definitions.</p>
 <td align="left">No variant glyphs were found for uni01B7</td>
 </tr>
 <tr>
-<td align="left">bbj_Latn (Ghomala)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">biv_Latn (Birifor, Southern)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">nfu_Latn (Mfumte)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">ee_Latn (Ewe)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">pil_Latn (Yom)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">tik_Latn (Tikar)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">meq_Latn (Merey)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
 <td align="left">hna_Latn (Mina)</td>
 <td align="left">No exemplar glyphs were defined for language Mina</td>
-</tr>
-<tr>
-<td align="left">gna_Latn (Kaansa)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">bbo_Latn (Northern Bobo Madaré)</td>
-<td align="left">No variant glyphs were found for Eng</td>
 </tr>
 <tr>
 <td align="left">btt_Latn (Bete-Bendi)</td>
 <td align="left">Some auxiliary glyphs were missing: A᷅, A᷆, E᷅, E᷆, I᷅, I᷆, O᷅, O᷆, U᷅, U᷆, a᷅, a᷆, e᷅, e᷆, i᷅, i᷆, o᷅, o᷆, u᷅, u᷆</td>
 </tr>
 <tr>
-<td align="left">mmu_Latn (Mmaala)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">etu_Latn (Ejagham)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">toq_Latn (Toposa)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">lmp_Latn (Limbum)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">kqp_Latn (Kimré)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">nmg_Latn (Kwasio)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">srr_Latn (Serer)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">boz_Latn (Tiéyaxo Bozo)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">mcu_Latn (Mambila, Cameroon)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">ffm_Latn (Maasina Fulfulde)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">neb_Latn (Toura)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">loq_Latn (Lobala)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">keu_Latn (Akebu)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">kkj_Latn (Kako)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">mnf_Latn (Mundani)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">mfi_Latn (Wandala)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">mgc_Latn (Morokodo)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">ndz_Latn (Ndogo)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">myk_Latn (Mamara Senoufo)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">kia_Latn (Kim)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
 <td align="left">tod_Latn (Toma)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
 <td align="left">No variant glyphs were found for uni028B</td>
 </tr>
 <tr>
@@ -2609,104 +2669,12 @@ definitions.</p>
 <td align="left">No variant glyphs were found for uni01B2</td>
 </tr>
 <tr>
-<td align="left">naw_Latn (Nawuri)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">fvr_Latn (Fur)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
 <td align="left">cch_Latn (Atsam)</td>
 <td align="left">No exemplar glyphs were defined for language Atsam</td>
 </tr>
 <tr>
-<td align="left">saf_Latn (Safaliba)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">mdj_Latn (Mangbetu)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">sbd_Latn (Southern Samo)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">xrb_Latn (Karaboro, Eastern)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">lun_Latn (Lunda)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">soy_Latn (Miyobe)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">gmm_Latn (Gbaya-Mbodomo)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">nku_Latn (Kulango, Bouna)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">ach_Latn (Acoli)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">nmz_Latn (Nawdm)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
 <td align="left">shi_Latn (Tachelhit (Latin))</td>
 <td align="left">Some auxiliary glyphs were missing: Gʷ, Kʷ, gʷ, kʷ</td>
-</tr>
-<tr>
-<td align="left">blo_Latn (Anii)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">sef_Latn (Cebaara Senoufo)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">snf_Latn (Noon)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">bze_Latn (Jenaama Bozo)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">emk_Latn (Maninkakan, Eastern)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">vag_Latn (Vagla)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">lem_Latn (Nomaande)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">tpm_Latn (Tampulma)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">mfq_Latn (Moba)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">mev_Latn (Mano)</td>
-<td align="left">No variant glyphs were found for Eng</td>
-</tr>
-<tr>
-<td align="left">yav_Latn (Yangben)</td>
-<td align="left">No variant glyphs were found for Eng</td>
 </tr>
 </tbody>
 </table>
