@@ -5,7 +5,16 @@ DisplayStrings = (
 "Ʌ",
 "Æ",
 "æ",
-"̏"
+"̅",
+"̱",
+"̲",
+p,
+P,
+"ɛ",
+"̋",
+"̏",
+"/Eng.loclNSM",
+"Ŋ"
 );
 classes = (
 {
@@ -171,18 +180,24 @@ lookup locl_latn_2 {
 } locl_latn_2;
 
 script latn;
-language CAT;
+language NSM;
 lookup locl_latn_3 {
-	sub l periodcentered' l by periodcentered.loclCAT;
-	sub L periodcentered' L by periodcentered.loclCAT.case;
+	sub Eng by Eng.loclNSM;
 } locl_latn_3;
 
 script latn;
-language NLD;
+language CAT;
 lookup locl_latn_4 {
+	sub l periodcentered' l by periodcentered.loclCAT;
+	sub L periodcentered' L by periodcentered.loclCAT.case;
+} locl_latn_4;
+
+script latn;
+language NLD;
+lookup locl_latn_5 {
 	sub iacute j' by jacute;
 	sub Iacute J' by Jacute;
-} locl_latn_4;
+} locl_latn_5;
 ";
 tag = locl;
 },
@@ -9455,9 +9470,19 @@ unicode = 338;
 },
 {
 glyphname = P;
-lastChange = "2024-05-03 21:16:31 +0000";
+lastChange = "2024-05-04 05:47:14 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (140,0);
+},
+{
+name = top;
+pos = (252,721);
+}
+);
 guides = (
 {
 pos = (113,716);
@@ -14154,6 +14179,176 @@ width = 557;
 );
 },
 {
+glyphname = Eng.loclNSM;
+lastChange = "2024-05-04 05:52:43 +0000";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (218,0);
+},
+{
+name = top;
+pos = (326,709);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(190,728,o),
+(69,609,o),
+(79,591,cs),
+(170,428,o),
+(270,129,o),
+(373,2,cs),
+(385,-13,o),
+(477,122,o),
+(450,185,c),
+(364,329,o),
+(279,569,o),
+(201,709,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(9,150,o),
+(-30,41,o),
+(-30,10,cs),
+(-30,4,o),
+(-29,1,o),
+(-26,1,cs),
+(-25,1,o),
+(-23,2,o),
+(-21,4,cs),
+(-3,20,o),
+(27,30,o),
+(56,30,cs),
+(83,30,o),
+(109,21,o),
+(124,2,cs),
+(138,-15,o),
+(190,122,o),
+(190,161,cs),
+(190,165,o),
+(189,168,o),
+(188,170,c),
+(172,190,o),
+(145,200,o),
+(115,200,cs),
+(84,200,o),
+(52,189,o),
+(29,168,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(539,565,o),
+(577,673,o),
+(577,704,cs),
+(577,709,o),
+(576,712,o),
+(574,712,cs),
+(572,712,o),
+(571,711,o),
+(568,709,cs),
+(550,693,o),
+(520,683,o),
+(491,683,cs),
+(464,683,o),
+(438,692,o),
+(423,711,cs),
+(410,727,o),
+(357,594,o),
+(357,553,cs),
+(357,549,o),
+(357,545,o),
+(359,543,cs),
+(375,523,o),
+(402,513,o),
+(432,513,cs),
+(463,513,o),
+(495,524,o),
+(518,545,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(45,41,o),
+(50,35,o),
+(59,35,cs),
+(82,35,o),
+(131,75,o),
+(137,107,cs),
+(148,167,o),
+(188,635,o),
+(188,636,cs),
+(189,648,o),
+(184,653,o),
+(176,653,cs),
+(152,653,o),
+(101,610,o),
+(98,578,cs),
+(96,562,o),
+(59,116,o),
+(47,55,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(370,41,o),
+(375,35,o),
+(384,35,cs),
+(407,35,o),
+(456,75,o),
+(462,107,cs),
+(473,167,o),
+(513,635,o),
+(513,636,cs),
+(514,648,o),
+(509,653,o),
+(501,653,cs),
+(477,653,o),
+(426,610,o),
+(423,578,cs),
+(421,562,o),
+(384,116,o),
+(372,55,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(333,200,l),
+(325,7,o),
+(317,-124,o),
+(271,-188,cs),
+(266,-196,o),
+(263,-201,o),
+(263,-204,cs),
+(263,-205,o),
+(264,-206,o),
+(266,-206,cs),
+(282,-206,o),
+(373,-140,o),
+(401,-92,cs),
+(441,-23,o),
+(461,73,o),
+(471,203,c)
+);
+}
+);
+width = 557;
+}
+);
+},
+{
 glyphname = a;
 lastChange = "2024-05-03 21:16:31 +0000";
 layers = (
@@ -17348,7 +17543,7 @@ unicode = 281;
 },
 {
 glyphname = eopen;
-lastChange = "2024-05-04 05:14:04 +0000";
+lastChange = "2024-05-04 05:48:50 +0000";
 layers = (
 {
 anchors = (
@@ -23394,9 +23589,19 @@ unicode = 339;
 },
 {
 glyphname = p;
-lastChange = "2024-04-15 16:21:13 +0000";
+lastChange = "2024-05-04 05:46:55 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (102,0);
+},
+{
+name = top;
+pos = (275,718);
+}
+);
 guides = (
 {
 pos = (722,374);
@@ -42044,7 +42249,7 @@ width = 440;
 },
 {
 glyphname = overlinecomb;
-lastChange = "2024-03-25 03:27:00 +0000";
+lastChange = "2024-05-04 05:49:30 +0000";
 layers = (
 {
 anchors = (
@@ -42054,7 +42259,7 @@ pos = (290,500);
 },
 {
 name = top;
-pos = (290,735);
+pos = (298,700);
 }
 );
 layerId = m01;
@@ -42086,7 +42291,7 @@ unicode = 773;
 },
 {
 glyphname = hookabovecomb;
-lastChange = "2024-04-15 14:38:12 +0000";
+lastChange = "2024-05-04 05:49:22 +0000";
 layers = (
 {
 anchors = (
@@ -42191,13 +42396,17 @@ unicode = 777;
 },
 {
 glyphname = dblgravecomb;
-lastChange = "2024-05-04 05:40:22 +0000";
+lastChange = "2024-05-04 05:49:55 +0000";
 layers = (
 {
 anchors = (
 {
+name = _top;
+pos = (164,501);
+},
+{
 name = top;
-pos = (221,500);
+pos = (104,720);
 }
 );
 layerId = m01;
