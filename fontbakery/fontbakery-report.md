@@ -38,7 +38,7 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 
-<details><summary>[13] GaMaamli-Regular.ttf</summary>
+<details><summary>[12] GaMaamli-Regular.ttf</summary>
 <div>
 <details>
     <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
@@ -122,11 +122,9 @@ These won't break the CI job for now, but will become effective after some time 
 
 - Glyph name: uni0123	Contours detected: 2	Expected: 3 or 4
 
+- Glyph name: hbar	Contours detected: 2	Expected: 1
+
 - Glyph name: ij	Contours detected: 2	Expected: 3 or 4
-
-- Glyph name: Lslash	Contours detected: 2	Expected: 1
-
-- Glyph name: lslash	Contours detected: 2	Expected: 1
 
 - Glyph name: nacute	Contours detected: 3	Expected: 2
 
@@ -151,8 +149,6 @@ These won't break the CI job for now, but will become effective after some time 
 - Glyph name: uni0189	Contours detected: 3	Expected: 2
 
 - Glyph name: uni0197	Contours detected: 2	Expected: 1
-
-- Glyph name: Uhorn	Contours detected: 2	Expected: 1
 
 - Glyph name: uni01E3	Contours detected: 3	Expected: 4
 
@@ -202,16 +198,6 @@ These won't break the CI job for now, but will become effective after some time 
 
 - Glyph name: uni1ECB	Contours detected: 2	Expected: 3
 
-- Glyph name: uni1EE8	Contours detected: 3	Expected: 2
-
-- Glyph name: uni1EEA	Contours detected: 3	Expected: 2
-
-- Glyph name: uni1EEC	Contours detected: 3	Expected: 2
-
-- Glyph name: uni1EEE	Contours detected: 3	Expected: 2
-
-- Glyph name: uni1EF0	Contours detected: 3	Expected: 2
-
 - Glyph name: uni2016	Contours detected: 4	Expected: 2
 
 - Glyph name: ellipsis	Contours detected: 2	Expected: 3
@@ -224,11 +210,7 @@ These won't break the CI job for now, but will become effective after some time 
 
 - Glyph name: Eth	Contours detected: 3	Expected: 2
 
-- Glyph name: Lslash	Contours detected: 2	Expected: 1
-
 - Glyph name: M	Contours detected: 2	Expected: 1
-
-- Glyph name: Uhorn	Contours detected: 2	Expected: 1
 
 - Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
@@ -276,6 +258,8 @@ These won't break the CI job for now, but will become effective after some time 
 
 - Glyph name: gdotaccent	Contours detected: 2	Expected: 3 or 4
 
+- Glyph name: hbar	Contours detected: 2	Expected: 1
+
 - Glyph name: i	Contours detected: 1	Expected: 2
 
 - Glyph name: ij	Contours detected: 2	Expected: 3 or 4
@@ -283,8 +267,6 @@ These won't break the CI job for now, but will become effective after some time 
 - Glyph name: j	Contours detected: 1	Expected: 2
 
 - Glyph name: logicalnot	Contours detected: 2	Expected: 1
-
-- Glyph name: lslash	Contours detected: 2	Expected: 1
 
 - Glyph name: n	Contours detected: 2	Expected: 1
 
@@ -376,16 +358,6 @@ These won't break the CI job for now, but will become effective after some time 
 
 - Glyph name: uni1ECB	Contours detected: 2	Expected: 3
 
-- Glyph name: uni1EE8	Contours detected: 3	Expected: 2
-
-- Glyph name: uni1EEA	Contours detected: 3	Expected: 2
-
-- Glyph name: uni1EEC	Contours detected: 3	Expected: 2
-
-- Glyph name: uni1EEE	Contours detected: 3	Expected: 2
-
-- Glyph name: uni1EF0	Contours detected: 3	Expected: 2
-
 - Glyph name: uni2016	Contours detected: 4	Expected: 2
 
 - Glyph name: uni20AA	Contours detected: 3	Expected: 2
@@ -414,7 +386,7 @@ The following math glyphs have a different width, though:</p>
 <p>Width = 551:
 less</p>
 <p>Width = 607:
-notequal, equal</p>
+equal, notequal</p>
 <p>Width = 540:
 greater</p>
 <p>Width = 598:
@@ -432,28 +404,6 @@ lessequal</p>
 <p>Width = 568:
 greaterequal</p>
  [code: width-outliers]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- periodcentered.loclCAT
-
-- periodcentered.loclCAT.case
-</code></pre>
- [code: unreachable-glyphs]
 
 
 
@@ -505,9 +455,9 @@ greaterequal</p>
 
 * AEacute (U+01FC): L&lt;&lt;609.0,269.0&gt;--&lt;377.0,268.0&gt;&gt;
 
-* Amacron (U+0100): L&lt;&lt;265.0,897.0&gt;--&lt;496.0,895.0&gt;&gt;
+* Amacron (U+0100): L&lt;&lt;265.0,879.0&gt;--&lt;496.0,877.0&gt;&gt;
 
-* Amacron (U+0100): L&lt;&lt;454.0,773.0&gt;--&lt;223.0,775.0&gt;&gt;
+* Amacron (U+0100): L&lt;&lt;454.0,755.0&gt;--&lt;223.0,757.0&gt;&gt;
 
 * E (U+0045): L&lt;&lt;179.0,438.0&gt;--&lt;429.0,439.0&gt;&gt;
 
@@ -539,11 +489,11 @@ greaterequal</p>
 
 * Emacron (U+0112): L&lt;&lt;179.0,438.0&gt;--&lt;429.0,439.0&gt;&gt;
 
-* Emacron (U+0112): L&lt;&lt;241.0,891.0&gt;--&lt;472.0,889.0&gt;&gt;
+* Emacron (U+0112): L&lt;&lt;241.0,881.0&gt;--&lt;472.0,879.0&gt;&gt;
 
 * Emacron (U+0112): L&lt;&lt;369.0,269.0&gt;--&lt;168.0,268.0&gt;&gt;
 
-* Emacron (U+0112): L&lt;&lt;430.0,767.0&gt;--&lt;199.0,769.0&gt;&gt;
+* Emacron (U+0112): L&lt;&lt;430.0,757.0&gt;--&lt;199.0,759.0&gt;&gt;
 
 * Eogonek (U+0118): L&lt;&lt;179.0,438.0&gt;--&lt;429.0,439.0&gt;&gt;
 
@@ -553,31 +503,33 @@ greaterequal</p>
 
 * H (U+0048): L&lt;&lt;344.0,269.0&gt;--&lt;211.0,268.0&gt;&gt;
 
-* Hbar (U+0126): L&lt;&lt;254.0,438.0&gt;--&lt;387.0,439.0&gt;&gt;
+* Hbar (U+0126): L&lt;&lt;250.0,387.0&gt;--&lt;383.0,388.0&gt;&gt;
+
+* Hbar (U+0126): L&lt;&lt;262.0,549.0&gt;--&lt;391.0,550.0&gt;&gt;
 
 * Hbar (U+0126): L&lt;&lt;374.0,269.0&gt;--&lt;241.0,268.0&gt;&gt;
 
-* Hbar (U+0126): L&lt;&lt;392.0,511.0&gt;--&lt;259.0,510.0&gt;&gt;
+* Hbar (U+0126): L&lt;&lt;389.0,457.0&gt;--&lt;255.0,456.0&gt;&gt;
 
 * Hcircumflex (U+0124): L&lt;&lt;224.0,438.0&gt;--&lt;357.0,439.0&gt;&gt;
 
 * Hcircumflex (U+0124): L&lt;&lt;344.0,269.0&gt;--&lt;211.0,268.0&gt;&gt;
 
-* Imacron (U+012A): L&lt;&lt;117.0,915.0&gt;--&lt;348.0,913.0&gt;&gt;
+* Imacron (U+012A): L&lt;&lt;114.0,905.0&gt;--&lt;345.0,903.0&gt;&gt;
 
-* Imacron (U+012A): L&lt;&lt;306.0,791.0&gt;--&lt;75.0,793.0&gt;&gt;
+* Imacron (U+012A): L&lt;&lt;303.0,781.0&gt;--&lt;72.0,783.0&gt;&gt;
 
 * OE (U+0152): L&lt;&lt;443.0,438.0&gt;--&lt;692.0,439.0&gt;&gt;
 
 * OE (U+0152): L&lt;&lt;632.0,269.0&gt;--&lt;431.0,268.0&gt;&gt;
 
-* Omacron (U+014C): L&lt;&lt;227.0,880.0&gt;--&lt;458.0,878.0&gt;&gt;
+* Omacron (U+014C): L&lt;&lt;235.0,883.0&gt;--&lt;466.0,881.0&gt;&gt;
 
-* Omacron (U+014C): L&lt;&lt;416.0,756.0&gt;--&lt;185.0,758.0&gt;&gt;
+* Omacron (U+014C): L&lt;&lt;424.0,759.0&gt;--&lt;193.0,761.0&gt;&gt;
 
-* Umacron (U+016A): L&lt;&lt;250.0,900.0&gt;--&lt;481.0,898.0&gt;&gt;
+* Umacron (U+016A): L&lt;&lt;250.0,890.0&gt;--&lt;481.0,888.0&gt;&gt;
 
-* Umacron (U+016A): L&lt;&lt;439.0,776.0&gt;--&lt;208.0,778.0&gt;&gt;
+* Umacron (U+016A): L&lt;&lt;439.0,766.0&gt;--&lt;208.0,768.0&gt;&gt;
 
 * ae (U+00E6): L&lt;&lt;413.0,430.0&gt;--&lt;614.0,431.0&gt;&gt;
 
@@ -587,9 +539,9 @@ greaterequal</p>
 
 * aeacute (U+01FD): L&lt;&lt;554.0,261.0&gt;--&lt;399.0,260.0&gt;&gt;
 
-* amacron (U+0101): L&lt;&lt;250.0,890.0&gt;--&lt;481.0,888.0&gt;&gt;
+* amacron (U+0101): L&lt;&lt;250.0,880.0&gt;--&lt;481.0,878.0&gt;&gt;
 
-* amacron (U+0101): L&lt;&lt;439.0,766.0&gt;--&lt;208.0,768.0&gt;&gt;
+* amacron (U+0101): L&lt;&lt;439.0,756.0&gt;--&lt;208.0,758.0&gt;&gt;
 
 * ampersand (U+0026): L&lt;&lt;509.0,437.0&gt;--&lt;648.0,438.0&gt;&gt;
 
@@ -647,11 +599,11 @@ greaterequal</p>
 
 * emacron (U+0113): L&lt;&lt;170.0,438.0&gt;--&lt;402.0,439.0&gt;&gt;
 
-* emacron (U+0113): L&lt;&lt;242.0,901.0&gt;--&lt;473.0,899.0&gt;&gt;
+* emacron (U+0113): L&lt;&lt;242.0,891.0&gt;--&lt;473.0,889.0&gt;&gt;
 
 * emacron (U+0113): L&lt;&lt;342.0,269.0&gt;--&lt;137.0,268.0&gt;&gt;
 
-* emacron (U+0113): L&lt;&lt;431.0,777.0&gt;--&lt;200.0,779.0&gt;&gt;
+* emacron (U+0113): L&lt;&lt;431.0,767.0&gt;--&lt;200.0,769.0&gt;&gt;
 
 * emdash (U+2014): L&lt;&lt;731.0,212.0&gt;--&lt;14.0,214.0&gt;&gt;
 
@@ -695,9 +647,13 @@ greaterequal</p>
 
 * h (U+0068): L&lt;&lt;349.0,268.0&gt;--&lt;215.0,267.0&gt;&gt;
 
-* hbar (U+0127): L&lt;&lt;227.0,437.0&gt;--&lt;362.0,438.0&gt;&gt;
+* hbar (U+0127): L&lt;&lt;222.0,367.0&gt;--&lt;357.0,368.0&gt;&gt;
 
-* hbar (U+0127): L&lt;&lt;349.0,268.0&gt;--&lt;215.0,267.0&gt;&gt;
+* hbar (U+0127): L&lt;&lt;234.0,529.0&gt;--&lt;368.0,530.0&gt;&gt;
+
+* hbar (U+0127): L&lt;&lt;348.0,249.0&gt;--&lt;213.0,248.0&gt;&gt;
+
+* hbar (U+0127): L&lt;&lt;362.0,437.0&gt;--&lt;227.0,436.0&gt;&gt;
 
 * hcircumflex (U+0125): L&lt;&lt;227.0,437.0&gt;--&lt;362.0,438.0&gt;&gt;
 
@@ -707,9 +663,9 @@ greaterequal</p>
 
 * hyphen (U+002D): L&lt;&lt;79.0,384.0&gt;--&lt;310.0,382.0&gt;&gt;
 
-* imacron (U+012B): L&lt;&lt;108.0,901.0&gt;--&lt;339.0,899.0&gt;&gt;
+* imacron (U+012B): L&lt;&lt;108.0,891.0&gt;--&lt;339.0,889.0&gt;&gt;
 
-* imacron (U+012B): L&lt;&lt;297.0,777.0&gt;--&lt;66.0,779.0&gt;&gt;
+* imacron (U+012B): L&lt;&lt;297.0,767.0&gt;--&lt;66.0,769.0&gt;&gt;
 
 * lessequal (U+2264): L&lt;&lt;398.0,-34.0&gt;--&lt;25.0,-35.0&gt;&gt;
 
@@ -723,9 +679,9 @@ greaterequal</p>
 
 * logicalnot (U+00AC): L&lt;&lt;403.0,254.0&gt;--&lt;54.0,253.0&gt;&gt;
 
-* macron (U+00AF): L&lt;&lt;237.0,546.0&gt;--&lt;6.0,548.0&gt;&gt;
+* macron (U+00AF): L&lt;&lt;237.0,536.0&gt;--&lt;6.0,538.0&gt;&gt;
 
-* macron (U+00AF): L&lt;&lt;48.0,670.0&gt;--&lt;279.0,668.0&gt;&gt;
+* macron (U+00AF): L&lt;&lt;48.0,660.0&gt;--&lt;279.0,658.0&gt;&gt;
 
 * minus (U+2212): L&lt;&lt;452.0,184.0&gt;--&lt;19.0,183.0&gt;&gt;
 
@@ -743,9 +699,9 @@ greaterequal</p>
 
 * oe (U+0153): L&lt;&lt;655.0,269.0&gt;--&lt;450.0,268.0&gt;&gt;
 
-* omacron (U+014D): L&lt;&lt;248.0,892.0&gt;--&lt;479.0,890.0&gt;&gt;
+* omacron (U+014D): L&lt;&lt;248.0,882.0&gt;--&lt;479.0,880.0&gt;&gt;
 
-* omacron (U+014D): L&lt;&lt;437.0,768.0&gt;--&lt;206.0,770.0&gt;&gt;
+* omacron (U+014D): L&lt;&lt;437.0,758.0&gt;--&lt;206.0,760.0&gt;&gt;
 
 * plusminus (U+00B1): L&lt;&lt;398.0,-34.0&gt;--&lt;25.0,-35.0&gt;&gt;
 
@@ -763,41 +719,41 @@ greaterequal</p>
 
 * summation (U+2211): L&lt;&lt;355.0,-9.0&gt;--&lt;32.0,-7.0&gt;&gt;
 
-* umacron (U+016B): L&lt;&lt;222.0,899.0&gt;--&lt;453.0,897.0&gt;&gt;
+* umacron (U+016B): L&lt;&lt;222.0,889.0&gt;--&lt;453.0,887.0&gt;&gt;
 
-* umacron (U+016B): L&lt;&lt;411.0,775.0&gt;--&lt;180.0,777.0&gt;&gt;
+* umacron (U+016B): L&lt;&lt;411.0,765.0&gt;--&lt;180.0,767.0&gt;&gt;
 
-* underscore (U+005F): L&lt;&lt;550.0,-193.0&gt;--&lt;14.0,-191.0&gt;&gt;
+* underscore (U+005F): L&lt;&lt;-6.0,-21.0&gt;--&lt;687.0,-23.0&gt;&gt;
 
-* underscore (U+005F): L&lt;&lt;74.0,-21.0&gt;--&lt;610.0,-23.0&gt;&gt;
+* underscore (U+005F): L&lt;&lt;627.0,-193.0&gt;--&lt;-66.0,-191.0&gt;&gt;
 
 * uni018E (U+018E): L&lt;&lt;148.0,404.0&gt;--&lt;347.0,405.0&gt;&gt;
 
 * uni018E (U+018E): L&lt;&lt;323.0,235.0&gt;--&lt;88.0,234.0&gt;&gt;
 
-* uni01DE (U+01DE): L&lt;&lt;275.0,1097.0&gt;--&lt;506.0,1095.0&gt;&gt;
+* uni01DE (U+01DE): L&lt;&lt;275.0,1079.0&gt;--&lt;506.0,1077.0&gt;&gt;
 
-* uni01DE (U+01DE): L&lt;&lt;464.0,973.0&gt;--&lt;233.0,975.0&gt;&gt;
+* uni01DE (U+01DE): L&lt;&lt;464.0,955.0&gt;--&lt;233.0,957.0&gt;&gt;
 
-* uni01DF (U+01DF): L&lt;&lt;260.0,1090.0&gt;--&lt;491.0,1088.0&gt;&gt;
+* uni01DF (U+01DF): L&lt;&lt;260.0,1080.0&gt;--&lt;491.0,1078.0&gt;&gt;
 
-* uni01DF (U+01DF): L&lt;&lt;449.0,966.0&gt;--&lt;218.0,968.0&gt;&gt;
+* uni01DF (U+01DF): L&lt;&lt;449.0,956.0&gt;--&lt;218.0,958.0&gt;&gt;
 
 * uni01E2 (U+01E2): L&lt;&lt;396.0,438.0&gt;--&lt;669.0,439.0&gt;&gt;
 
-* uni01E2 (U+01E2): L&lt;&lt;425.0,910.0&gt;--&lt;656.0,908.0&gt;&gt;
+* uni01E2 (U+01E2): L&lt;&lt;425.0,900.0&gt;--&lt;656.0,898.0&gt;&gt;
 
 * uni01E2 (U+01E2): L&lt;&lt;609.0,269.0&gt;--&lt;377.0,268.0&gt;&gt;
 
-* uni01E2 (U+01E2): L&lt;&lt;614.0,786.0&gt;--&lt;383.0,788.0&gt;&gt;
+* uni01E2 (U+01E2): L&lt;&lt;614.0,776.0&gt;--&lt;383.0,778.0&gt;&gt;
 
-* uni01E3 (U+01E3): L&lt;&lt;388.0,905.0&gt;--&lt;619.0,903.0&gt;&gt;
+* uni01E3 (U+01E3): L&lt;&lt;388.0,895.0&gt;--&lt;619.0,893.0&gt;&gt;
 
 * uni01E3 (U+01E3): L&lt;&lt;413.0,430.0&gt;--&lt;614.0,431.0&gt;&gt;
 
 * uni01E3 (U+01E3): L&lt;&lt;554.0,261.0&gt;--&lt;399.0,260.0&gt;&gt;
 
-* uni01E3 (U+01E3): L&lt;&lt;577.0,781.0&gt;--&lt;346.0,783.0&gt;&gt;
+* uni01E3 (U+01E3): L&lt;&lt;577.0,771.0&gt;--&lt;346.0,773.0&gt;&gt;
 
 * uni0228 (U+0228): L&lt;&lt;179.0,438.0&gt;--&lt;429.0,439.0&gt;&gt;
 
@@ -807,27 +763,27 @@ greaterequal</p>
 
 * uni0229 (U+0229): L&lt;&lt;342.0,269.0&gt;--&lt;137.0,268.0&gt;&gt;
 
-* uni022A (U+022A): L&lt;&lt;237.0,1080.0&gt;--&lt;468.0,1078.0&gt;&gt;
+* uni022A (U+022A): L&lt;&lt;245.0,1083.0&gt;--&lt;476.0,1081.0&gt;&gt;
 
-* uni022A (U+022A): L&lt;&lt;426.0,956.0&gt;--&lt;195.0,958.0&gt;&gt;
+* uni022A (U+022A): L&lt;&lt;434.0,959.0&gt;--&lt;203.0,961.0&gt;&gt;
 
-* uni022B (U+022B): L&lt;&lt;255.0,1092.0&gt;--&lt;486.0,1090.0&gt;&gt;
+* uni022B (U+022B): L&lt;&lt;255.0,1082.0&gt;--&lt;486.0,1080.0&gt;&gt;
 
-* uni022B (U+022B): L&lt;&lt;444.0,968.0&gt;--&lt;213.0,970.0&gt;&gt;
+* uni022B (U+022B): L&lt;&lt;444.0,958.0&gt;--&lt;213.0,960.0&gt;&gt;
 
-* uni0232 (U+0232): L&lt;&lt;257.0,900.0&gt;--&lt;488.0,898.0&gt;&gt;
+* uni0232 (U+0232): L&lt;&lt;257.0,890.0&gt;--&lt;488.0,888.0&gt;&gt;
 
-* uni0232 (U+0232): L&lt;&lt;446.0,776.0&gt;--&lt;215.0,778.0&gt;&gt;
+* uni0232 (U+0232): L&lt;&lt;446.0,766.0&gt;--&lt;215.0,768.0&gt;&gt;
 
-* uni0233 (U+0233): L&lt;&lt;249.0,879.0&gt;--&lt;480.0,877.0&gt;&gt;
+* uni0233 (U+0233): L&lt;&lt;249.0,869.0&gt;--&lt;480.0,867.0&gt;&gt;
 
-* uni0233 (U+0233): L&lt;&lt;438.0,755.0&gt;--&lt;207.0,757.0&gt;&gt;
+* uni0233 (U+0233): L&lt;&lt;438.0,745.0&gt;--&lt;207.0,747.0&gt;&gt;
 
 * uni0283 (U+0283): L&lt;&lt;253.0,255.0&gt;--&lt;254.0,454.0&gt;&gt;
 
-* uni0304 (U+0304): L&lt;&lt;237.0,546.0&gt;--&lt;6.0,548.0&gt;&gt;
+* uni0304 (U+0304): L&lt;&lt;237.0,536.0&gt;--&lt;6.0,538.0&gt;&gt;
 
-* uni0304 (U+0304): L&lt;&lt;48.0,670.0&gt;--&lt;279.0,668.0&gt;&gt;
+* uni0304 (U+0304): L&lt;&lt;48.0,660.0&gt;--&lt;279.0,658.0&gt;&gt;
 
 * uni0305 (U+0305): L&lt;&lt;48.0,661.0&gt;--&lt;574.0,659.0&gt;&gt;
 
@@ -837,9 +793,9 @@ greaterequal</p>
 
 * uni031A (U+031A): L&lt;&lt;57.0,712.0&gt;--&lt;284.0,713.0&gt;&gt;
 
-* uni0331 (U+0331): L&lt;&lt;287.0,-211.0&gt;--&lt;56.0,-209.0&gt;&gt;
+* uni0331 (U+0331): L&lt;&lt;275.0,-158.0&gt;--&lt;44.0,-156.0&gt;&gt;
 
-* uni0331 (U+0331): L&lt;&lt;98.0,-87.0&gt;--&lt;329.0,-89.0&gt;&gt;
+* uni0331 (U+0331): L&lt;&lt;86.0,-34.0&gt;--&lt;317.0,-36.0&gt;&gt;
 
 * uni0332 (U+0332): L&lt;&lt;-86.0,-95.0&gt;--&lt;440.0,-97.0&gt;&gt;
 
@@ -849,49 +805,49 @@ greaterequal</p>
 
 * uni0394 (U+0394): L&lt;&lt;393.0,1.0&gt;--&lt;7.0,0.0&gt;&gt;
 
-* uni1E0E (U+1E0E): L&lt;&lt;165.0,879.0&gt;--&lt;396.0,877.0&gt;&gt;
+* uni1E0E (U+1E0E): L&lt;&lt;260.0,-158.0&gt;--&lt;29.0,-156.0&gt;&gt;
 
-* uni1E0E (U+1E0E): L&lt;&lt;354.0,755.0&gt;--&lt;123.0,757.0&gt;&gt;
+* uni1E0E (U+1E0E): L&lt;&lt;71.0,-34.0&gt;--&lt;302.0,-36.0&gt;&gt;
 
 * uni1E14 (U+1E14): L&lt;&lt;179.0,438.0&gt;--&lt;429.0,439.0&gt;&gt;
 
-* uni1E14 (U+1E14): L&lt;&lt;241.0,891.0&gt;--&lt;472.0,889.0&gt;&gt;
+* uni1E14 (U+1E14): L&lt;&lt;241.0,881.0&gt;--&lt;472.0,879.0&gt;&gt;
 
 * uni1E14 (U+1E14): L&lt;&lt;369.0,269.0&gt;--&lt;168.0,268.0&gt;&gt;
 
-* uni1E14 (U+1E14): L&lt;&lt;430.0,767.0&gt;--&lt;199.0,769.0&gt;&gt;
+* uni1E14 (U+1E14): L&lt;&lt;430.0,757.0&gt;--&lt;199.0,759.0&gt;&gt;
 
 * uni1E15 (U+1E15): L&lt;&lt;170.0,438.0&gt;--&lt;402.0,439.0&gt;&gt;
 
-* uni1E15 (U+1E15): L&lt;&lt;242.0,901.0&gt;--&lt;473.0,899.0&gt;&gt;
+* uni1E15 (U+1E15): L&lt;&lt;242.0,891.0&gt;--&lt;473.0,889.0&gt;&gt;
 
 * uni1E15 (U+1E15): L&lt;&lt;342.0,269.0&gt;--&lt;137.0,268.0&gt;&gt;
 
-* uni1E15 (U+1E15): L&lt;&lt;431.0,777.0&gt;--&lt;200.0,779.0&gt;&gt;
+* uni1E15 (U+1E15): L&lt;&lt;431.0,767.0&gt;--&lt;200.0,769.0&gt;&gt;
 
 * uni1E16 (U+1E16): L&lt;&lt;179.0,438.0&gt;--&lt;429.0,439.0&gt;&gt;
 
-* uni1E16 (U+1E16): L&lt;&lt;241.0,891.0&gt;--&lt;472.0,889.0&gt;&gt;
+* uni1E16 (U+1E16): L&lt;&lt;241.0,881.0&gt;--&lt;472.0,879.0&gt;&gt;
 
 * uni1E16 (U+1E16): L&lt;&lt;369.0,269.0&gt;--&lt;168.0,268.0&gt;&gt;
 
-* uni1E16 (U+1E16): L&lt;&lt;430.0,767.0&gt;--&lt;199.0,769.0&gt;&gt;
+* uni1E16 (U+1E16): L&lt;&lt;430.0,757.0&gt;--&lt;199.0,759.0&gt;&gt;
 
 * uni1E17 (U+1E17): L&lt;&lt;170.0,438.0&gt;--&lt;402.0,439.0&gt;&gt;
 
-* uni1E17 (U+1E17): L&lt;&lt;242.0,901.0&gt;--&lt;473.0,899.0&gt;&gt;
+* uni1E17 (U+1E17): L&lt;&lt;242.0,891.0&gt;--&lt;473.0,889.0&gt;&gt;
 
 * uni1E17 (U+1E17): L&lt;&lt;342.0,269.0&gt;--&lt;137.0,268.0&gt;&gt;
 
-* uni1E17 (U+1E17): L&lt;&lt;431.0,777.0&gt;--&lt;200.0,779.0&gt;&gt;
+* uni1E17 (U+1E17): L&lt;&lt;431.0,767.0&gt;--&lt;200.0,769.0&gt;&gt;
 
-* uni1E20 (U+1E20): L&lt;&lt;264.0,880.0&gt;--&lt;495.0,878.0&gt;&gt;
+* uni1E20 (U+1E20): L&lt;&lt;279.0,895.0&gt;--&lt;510.0,893.0&gt;&gt;
 
-* uni1E20 (U+1E20): L&lt;&lt;453.0,756.0&gt;--&lt;222.0,758.0&gt;&gt;
+* uni1E20 (U+1E20): L&lt;&lt;468.0,771.0&gt;--&lt;237.0,773.0&gt;&gt;
 
-* uni1E21 (U+1E21): L&lt;&lt;289.0,900.0&gt;--&lt;520.0,898.0&gt;&gt;
+* uni1E21 (U+1E21): L&lt;&lt;289.0,890.0&gt;--&lt;520.0,888.0&gt;&gt;
 
-* uni1E21 (U+1E21): L&lt;&lt;478.0,776.0&gt;--&lt;247.0,778.0&gt;&gt;
+* uni1E21 (U+1E21): L&lt;&lt;478.0,766.0&gt;--&lt;247.0,768.0&gt;&gt;
 
 * uni1E22 (U+1E22): L&lt;&lt;224.0,438.0&gt;--&lt;357.0,439.0&gt;&gt;
 
@@ -909,61 +865,61 @@ greaterequal</p>
 
 * uni1E25 (U+1E25): L&lt;&lt;349.0,268.0&gt;--&lt;215.0,267.0&gt;&gt;
 
-* uni1E34 (U+1E34): L&lt;&lt;236.0,916.0&gt;--&lt;467.0,914.0&gt;&gt;
+* uni1E34 (U+1E34): L&lt;&lt;124.0,-34.0&gt;--&lt;355.0,-36.0&gt;&gt;
 
-* uni1E34 (U+1E34): L&lt;&lt;425.0,792.0&gt;--&lt;194.0,794.0&gt;&gt;
+* uni1E34 (U+1E34): L&lt;&lt;313.0,-158.0&gt;--&lt;82.0,-156.0&gt;&gt;
 
-* uni1E35 (U+1E35): L&lt;&lt;203.0,881.0&gt;--&lt;434.0,879.0&gt;&gt;
+* uni1E35 (U+1E35): L&lt;&lt;113.0,-34.0&gt;--&lt;344.0,-36.0&gt;&gt;
 
-* uni1E35 (U+1E35): L&lt;&lt;392.0,757.0&gt;--&lt;161.0,759.0&gt;&gt;
+* uni1E35 (U+1E35): L&lt;&lt;302.0,-158.0&gt;--&lt;71.0,-156.0&gt;&gt;
 
-* uni1E48 (U+1E48): L&lt;&lt;253.0,879.0&gt;--&lt;484.0,877.0&gt;&gt;
+* uni1E48 (U+1E48): L&lt;&lt;159.0,-34.0&gt;--&lt;390.0,-36.0&gt;&gt;
 
-* uni1E48 (U+1E48): L&lt;&lt;442.0,755.0&gt;--&lt;211.0,757.0&gt;&gt;
+* uni1E48 (U+1E48): L&lt;&lt;348.0,-158.0&gt;--&lt;117.0,-156.0&gt;&gt;
 
-* uni1E49 (U+1E49): L&lt;&lt;237.0,880.0&gt;--&lt;468.0,878.0&gt;&gt;
+* uni1E49 (U+1E49): L&lt;&lt;176.0,-34.0&gt;--&lt;407.0,-36.0&gt;&gt;
 
-* uni1E49 (U+1E49): L&lt;&lt;426.0,756.0&gt;--&lt;195.0,758.0&gt;&gt;
+* uni1E49 (U+1E49): L&lt;&lt;365.0,-158.0&gt;--&lt;134.0,-156.0&gt;&gt;
 
-* uni1E50 (U+1E50): L&lt;&lt;227.0,880.0&gt;--&lt;458.0,878.0&gt;&gt;
+* uni1E50 (U+1E50): L&lt;&lt;235.0,883.0&gt;--&lt;466.0,881.0&gt;&gt;
 
-* uni1E50 (U+1E50): L&lt;&lt;416.0,756.0&gt;--&lt;185.0,758.0&gt;&gt;
+* uni1E50 (U+1E50): L&lt;&lt;424.0,759.0&gt;--&lt;193.0,761.0&gt;&gt;
 
-* uni1E51 (U+1E51): L&lt;&lt;245.0,892.0&gt;--&lt;476.0,890.0&gt;&gt;
+* uni1E51 (U+1E51): L&lt;&lt;245.0,882.0&gt;--&lt;476.0,880.0&gt;&gt;
 
-* uni1E51 (U+1E51): L&lt;&lt;434.0,768.0&gt;--&lt;203.0,770.0&gt;&gt;
+* uni1E51 (U+1E51): L&lt;&lt;434.0,758.0&gt;--&lt;203.0,760.0&gt;&gt;
 
-* uni1E52 (U+1E52): L&lt;&lt;227.0,880.0&gt;--&lt;458.0,878.0&gt;&gt;
+* uni1E52 (U+1E52): L&lt;&lt;235.0,883.0&gt;--&lt;466.0,881.0&gt;&gt;
 
-* uni1E52 (U+1E52): L&lt;&lt;416.0,756.0&gt;--&lt;185.0,758.0&gt;&gt;
+* uni1E52 (U+1E52): L&lt;&lt;424.0,759.0&gt;--&lt;193.0,761.0&gt;&gt;
 
-* uni1E53 (U+1E53): L&lt;&lt;245.0,892.0&gt;--&lt;476.0,890.0&gt;&gt;
+* uni1E53 (U+1E53): L&lt;&lt;245.0,882.0&gt;--&lt;476.0,880.0&gt;&gt;
 
-* uni1E53 (U+1E53): L&lt;&lt;434.0,768.0&gt;--&lt;203.0,770.0&gt;&gt;
+* uni1E53 (U+1E53): L&lt;&lt;434.0,758.0&gt;--&lt;203.0,760.0&gt;&gt;
 
-* uni1E6E (U+1E6E): L&lt;&lt;182.0,883.0&gt;--&lt;413.0,881.0&gt;&gt;
+* uni1E6E (U+1E6E): L&lt;&lt;287.0,-158.0&gt;--&lt;56.0,-156.0&gt;&gt;
 
-* uni1E6E (U+1E6E): L&lt;&lt;371.0,759.0&gt;--&lt;140.0,761.0&gt;&gt;
+* uni1E6E (U+1E6E): L&lt;&lt;98.0,-34.0&gt;--&lt;329.0,-36.0&gt;&gt;
 
-* uni1E6F (U+1E6F): L&lt;&lt;187.0,913.0&gt;--&lt;418.0,911.0&gt;&gt;
+* uni1E6F (U+1E6F): L&lt;&lt;222.0,-149.0&gt;--&lt;-9.0,-147.0&gt;&gt;
 
-* uni1E6F (U+1E6F): L&lt;&lt;376.0,789.0&gt;--&lt;145.0,791.0&gt;&gt;
+* uni1E6F (U+1E6F): L&lt;&lt;33.0,-25.0&gt;--&lt;264.0,-27.0&gt;&gt;
 
-* uni1E94 (U+1E94): L&lt;&lt;221.0,906.0&gt;--&lt;452.0,904.0&gt;&gt;
+* uni1E94 (U+1E94): L&lt;&lt;250.0,-175.0&gt;--&lt;19.0,-173.0&gt;&gt;
 
-* uni1E94 (U+1E94): L&lt;&lt;410.0,782.0&gt;--&lt;179.0,784.0&gt;&gt;
+* uni1E94 (U+1E94): L&lt;&lt;61.0,-51.0&gt;--&lt;292.0,-53.0&gt;&gt;
 
-* uni1E95 (U+1E95): L&lt;&lt;208.0,893.0&gt;--&lt;439.0,891.0&gt;&gt;
+* uni1E95 (U+1E95): L&lt;&lt;235.0,-158.0&gt;--&lt;4.0,-156.0&gt;&gt;
 
-* uni1E95 (U+1E95): L&lt;&lt;397.0,769.0&gt;--&lt;166.0,771.0&gt;&gt;
+* uni1E95 (U+1E95): L&lt;&lt;46.0,-34.0&gt;--&lt;277.0,-36.0&gt;&gt;
+
+* uni1E96 (U+1E96): L&lt;&lt;144.0,-34.0&gt;--&lt;375.0,-36.0&gt;&gt;
 
 * uni1E96 (U+1E96): L&lt;&lt;227.0,437.0&gt;--&lt;362.0,438.0&gt;&gt;
 
-* uni1E96 (U+1E96): L&lt;&lt;274.0,877.0&gt;--&lt;505.0,875.0&gt;&gt;
+* uni1E96 (U+1E96): L&lt;&lt;333.0,-158.0&gt;--&lt;102.0,-156.0&gt;&gt;
 
 * uni1E96 (U+1E96): L&lt;&lt;349.0,268.0&gt;--&lt;215.0,267.0&gt;&gt;
-
-* uni1E96 (U+1E96): L&lt;&lt;463.0,753.0&gt;--&lt;232.0,755.0&gt;&gt;
 
 * uni1E9E (U+1E9E): L&lt;&lt;318.0,542.0&gt;--&lt;182.0,543.0&gt;&gt;
 
@@ -1038,16 +994,6 @@ greaterequal</p>
 * uni2206 (U+2206): L&lt;&lt;139.0,170.0&gt;--&lt;321.0,171.0&gt;&gt;
 
 * uni2206 (U+2206): L&lt;&lt;393.0,1.0&gt;--&lt;7.0,0.0&gt;&gt;
-
-* uniFF06 (U+FF06): L&lt;&lt;509.0,437.0&gt;--&lt;648.0,438.0&gt;&gt;
-
-* uniFF0D (U+FF0D): L&lt;&lt;124.0,384.0&gt;--&lt;355.0,382.0&gt;&gt;
-
-* uniFF0D (U+FF0D): L&lt;&lt;295.0,212.0&gt;--&lt;64.0,214.0&gt;&gt;
-
-* uniFF3F (U+FF3F): L&lt;&lt;164.0,-21.0&gt;--&lt;700.0,-23.0&gt;&gt;
-
-* uniFF3F (U+FF3F): L&lt;&lt;640.0,-193.0&gt;--&lt;104.0,-191.0&gt;&gt;
 </code></pre>
  [code: found-semi-vertical]
 
@@ -1072,32 +1018,32 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh</li>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02C7 CARON: try adding one of: yi, tifinagh, canadian-aboriginal</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, tifinagh, cherokee</li>
-<li>U+0305 COMBINING OVERLINE: try adding one of: math, gothic, elbasan, coptic, glagolitic</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, tai-le, canadian-aboriginal, old-permic, malayalam, coptic, tifinagh, syriac</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, cherokee, tifinagh, coptic</li>
+<li>U+0305 COMBINING OVERLINE: try adding one of: glagolitic, gothic, elbasan, coptic, math</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, syriac, canadian-aboriginal, coptic, tai-le, math, malayalam, tifinagh</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition</li>
 <li>U+031A COMBINING LEFT ANGLE ABOVE: not included in any glyphset definition</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
 <li>U+031C COMBINING LEFT HALF RING BELOW: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: cherokee, syriac</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: syriac, cherokee</li>
 <li>U+0325 COMBINING RING BELOW: try adding syriac</li>
 <li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
 <li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
 <li>U+032C COMBINING CARON BELOW: not included in any glyphset definition</li>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding syriac</li>
-<li>U+0330 COMBINING TILDE BELOW: try adding one of: math, cherokee, syriac</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: gothic, cherokee, caucasian-albanian, tifinagh, syriac</li>
+<li>U+0330 COMBINING TILDE BELOW: try adding one of: syriac, math, cherokee</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: gothic, caucasian-albanian, syriac, cherokee, tifinagh</li>
 <li>U+0332 COMBINING LOW LINE: not included in any glyphset definition</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0339 COMBINING RIGHT HALF RING BELOW: not included in any glyphset definition</li>
@@ -1156,32 +1102,14 @@ definitions.</p>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: hanunoo, khmer, brahmi, hanifi-rohingya, saurashtra, miao, sundanese, coptic, tagalog, batak, tai-tham, mandaic, malayalam, khojki, javanese, tai-le, meetei-mayek, canadian-aboriginal, bassa-vah, limbu, caucasian-albanian, nko, buhid, marchen, hebrew, manichaean, ahom, tamil, mahajani, phags-pa, symbols, myanmar, mende-kikakui, tagbanwa, wancho, tifinagh, math, gunjala-gondi, takri, tibetan, lepcha, music, siddham, lao, tirhuta, old-permic, masaram-gondi, mongolian, kayah-li, sinhala, yi, adlam, chakma, gujarati, bengali, tai-viet, kaithi, oriya, sharada, armenian, modi, dogra, osage, kharoshthi, soyombo, rejang, pahawh-hmong, syriac, bhaiksuki, devanagari, sogdian, cham, elbasan, buginese, gurmukhi, duployan, zanabazar-square, syloti-nagri, khudawadi, thaana, telugu, kannada, grantha, balinese, new-tai-lue, newa, psalter-pahlavi, thai, warang-citi</li>
-<li>U+3002 IDEOGRAPHIC FULL STOP: try adding one of: chinese-hongkong, tai-le, yi, japanese, chinese-simplified, nushu, chinese-traditional, mongolian, phags-pa</li>
-<li>U+3003 DITTO MARK: try adding one of: chinese-hongkong, yi, japanese, chinese-simplified, chinese-traditional, phags-pa</li>
-<li>U+3008 LEFT ANGLE BRACKET: try adding one of: chinese-hongkong, tai-le, yi, japanese, chinese-simplified, chinese-traditional, phags-pa</li>
-<li>U+3009 RIGHT ANGLE BRACKET: try adding one of: chinese-hongkong, tai-le, yi, japanese, chinese-simplified, chinese-traditional, phags-pa</li>
+<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: old-permic, kharoshthi, meetei-mayek, marchen, mandaic, kaithi, devanagari, modi, buhid, canadian-aboriginal, mongolian, pahawh-hmong, saurashtra, bhaiksuki, gujarati, khmer, siddham, yi, phags-pa, hanunoo, buginese, syriac, tagbanwa, takri, music, thai, psalter-pahlavi, symbols, sharada, balinese, masaram-gondi, mende-kikakui, sinhala, myanmar, math, chakma, malayalam, tai-viet, lepcha, tifinagh, kannada, newa, gunjala-gondi, sogdian, bassa-vah, zanabazar-square, coptic, dogra, tai-le, bengali, tamil, batak, limbu, tibetan, ahom, khojki, new-tai-lue, hanifi-rohingya, grantha, syloti-nagri, duployan, sundanese, elbasan, brahmi, kayah-li, tagalog, warang-citi, tai-tham, tirhuta, khudawadi, nko, miao, caucasian-albanian, osage, gurmukhi, soyombo, mahajani, hebrew, adlam, manichaean, thaana, telugu, wancho, oriya, rejang, javanese, armenian, lao, cham</li>
+<li>U+3003 DITTO MARK: try adding one of: chinese-hongkong, yi, phags-pa, japanese, chinese-simplified, chinese-traditional</li>
+<li>U+3008 LEFT ANGLE BRACKET: try adding one of: chinese-hongkong, yi, phags-pa, japanese, chinese-simplified, chinese-traditional, tai-le</li>
+<li>U+3009 RIGHT ANGLE BRACKET: try adding one of: chinese-hongkong, yi, phags-pa, japanese, chinese-simplified, chinese-traditional, tai-le</li>
 <li>U+301C WAVE DASH: try adding japanese</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
-<li>U+FF01 FULLWIDTH EXCLAMATION MARK: try adding one of: japanese, chinese-simplified, yi</li>
-<li>U+FF02 FULLWIDTH QUOTATION MARK: try adding one of: japanese, chinese-simplified, yi</li>
-<li>U+FF03 FULLWIDTH NUMBER SIGN: try adding one of: japanese, chinese-simplified</li>
-<li>U+FF05 FULLWIDTH PERCENT SIGN: try adding one of: japanese, chinese-simplified</li>
-<li>U+FF06 FULLWIDTH AMPERSAND: try adding one of: japanese, chinese-simplified</li>
-<li>U+FF07 FULLWIDTH APOSTROPHE: try adding one of: japanese, chinese-simplified</li>
-<li>U+FF0A FULLWIDTH ASTERISK: try adding one of: japanese, chinese-simplified</li>
-<li>U+FF0C FULLWIDTH COMMA: try adding one of: japanese, chinese-simplified, yi</li>
-<li>U+FF0D FULLWIDTH HYPHEN-MINUS: try adding one of: japanese, chinese-simplified</li>
-<li>U+FF0E FULLWIDTH FULL STOP: try adding one of: japanese, chinese-simplified, yi</li>
-<li>U+FF0F FULLWIDTH SOLIDUS: try adding one of: japanese, chinese-simplified, yi</li>
-<li>U+FF1A FULLWIDTH COLON: try adding one of: japanese, chinese-simplified, yi</li>
-<li>U+FF1B FULLWIDTH SEMICOLON: try adding one of: japanese, chinese-simplified, yi</li>
-<li>U+FF1F FULLWIDTH QUESTION MARK: try adding one of: japanese, chinese-simplified, yi</li>
-<li>U+FF20 FULLWIDTH COMMERCIAL AT: try adding one of: japanese, chinese-simplified</li>
-<li>U+FF3C FULLWIDTH REVERSE SOLIDUS: try adding one of: japanese, chinese-simplified</li>
-<li>U+FF3F FULLWIDTH LOW LINE: try adding one of: japanese, chinese-simplified</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>greek-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
  [code: unreachable-subsetting]
@@ -1282,7 +1210,7 @@ definitions.</p>
 
 
 
-* 🔥 **FAIL** <p>OS/2.usWinAscent value should be equal or greater than 1144, but got 1132 instead</p>
+* 🔥 **FAIL** <p>OS/2.usWinAscent value should be equal or greater than 1154, but got 1144 instead</p>
  [code: ascent]
 
 
@@ -1409,11 +1337,11 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">lnl_Latn (South Central Banda)</td>
-<td align="left">Shaper didn't attach uni0308 to uni025B</td>
+<td align="left">Shaper didn't attach uni0302 to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach uni0302 to uni025B</td>
+<td align="left">Shaper didn't attach uni0308 to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -1425,19 +1353,7 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">byv_Latn (Medumba)</td>
-<td align="left">Shaper didn't attach gravecomb to uni025B</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach gravecomb to uni0251</td>
-</tr>
-<tr>
-<td align="left">^</td>
 <td align="left">Shaper didn't attach uni030C to uni025B</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni030C to uni0251</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -1445,7 +1361,19 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">^</td>
+<td align="left">Shaper didn't attach gravecomb to uni0251</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach gravecomb to uni025B</td>
+</tr>
+<tr>
+<td align="left">^</td>
 <td align="left">Shaper didn't attach uni0302 to uni0251</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni030C to uni0251</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -1485,11 +1413,11 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach gravecomb to uni025B</td>
+<td align="left">Shaper didn't attach uni0304 to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach uni0304 to uni025B</td>
+<td align="left">Shaper didn't attach gravecomb to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -1505,19 +1433,19 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">gkp_Latn (Kpelle, Guinea)</td>
-<td align="left">Shaper didn't attach acutecomb to uni025B</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach gravecomb to uni025B</td>
-</tr>
-<tr>
-<td align="left">^</td>
 <td align="left">Shaper didn't attach tildecomb to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
+<td align="left">Shaper didn't attach acutecomb to uni025B</td>
+</tr>
+<tr>
+<td align="left">^</td>
 <td align="left">Shaper didn't attach uni0302 to uni025B</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach gravecomb to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -1621,43 +1549,7 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">pug_Latn (Phuie)</td>
-<td align="left">Shaper didn't attach acutecomb to uni025B</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach acutecomb to uni01B2</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach tildecomb to uni01B2</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach gravecomb to uni028B</td>
-</tr>
-<tr>
-<td align="left">^</td>
 <td align="left">Shaper didn't attach tildecomb to uni028B</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach tildecomb to uni028B</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach gravecomb to uni01B2</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach gravecomb to uni025B</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach tildecomb to uni01B2</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach acutecomb to uni028B</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -1666,26 +1558,6 @@ definitions.</p>
 <tr>
 <td align="left">^</td>
 <td align="left">Shaper didn't attach tildecomb to uni025B</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach tildecomb to uni028B</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach tildecomb to uni025B</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach tildecomb to uni025B</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach tildecomb to uni01B2</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach gravecomb to uni01B2</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -1701,6 +1573,62 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">^</td>
+<td align="left">Shaper didn't attach tildecomb to uni025B</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach acutecomb to uni025B</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach gravecomb to uni028B</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach gravecomb to uni025B</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach tildecomb to uni025B</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach acutecomb to uni028B</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach gravecomb to uni01B2</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach tildecomb to uni028B</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach tildecomb to uni028B</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach tildecomb to uni01B2</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach gravecomb to uni01B2</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach acutecomb to uni01B2</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach tildecomb to uni01B2</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach tildecomb to uni01B2</td>
+</tr>
+<tr>
+<td align="left">^</td>
 <td align="left">Shaper didn't attach tildecomb to uni01B2</td>
 </tr>
 <tr>
@@ -1762,38 +1690,6 @@ definitions.</p>
 <tr>
 <td align="left">^</td>
 <td align="left">Shaper didn't attach tildecomb to uni028B</td>
-</tr>
-<tr>
-<td align="left">kaj_Latn (Jju)</td>
-<td align="left">Shaper didn't attach uni0331 to u</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to A</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to a</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to U</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to a</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to A</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to u</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to U</td>
 </tr>
 <tr>
 <td align="left">mdt_Latn (Mbere)</td>
@@ -1813,11 +1709,11 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">bdh_Latn (Baka)</td>
-<td align="left">Shaper didn't attach dotbelowcomb to V</td>
+<td align="left">Shaper didn't attach dotbelowcomb to v</td>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach dotbelowcomb to v</td>
+<td align="left">Shaper didn't attach dotbelowcomb to V</td>
 </tr>
 <tr>
 <td align="left">ksp_Latn (Kabba)</td>
@@ -1837,11 +1733,11 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">wwa_Latn (Waama)</td>
-<td align="left">Shaper didn't attach gravecomb to uni025B</td>
+<td align="left">Shaper didn't attach tildecomb to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach tildecomb to uni025B</td>
+<td align="left">Shaper didn't attach gravecomb to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -1869,6 +1765,10 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">ewo_Latn (Ewondo)</td>
+<td align="left">Shaper didn't attach uni030C to uni025B</td>
+</tr>
+<tr>
+<td align="left">^</td>
 <td align="left">Shaper didn't attach acutecomb to uni025B</td>
 </tr>
 <tr>
@@ -1878,10 +1778,6 @@ definitions.</p>
 <tr>
 <td align="left">^</td>
 <td align="left">Shaper didn't attach gravecomb to uni025B</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni030C to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -1925,22 +1821,6 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to u</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to i</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to I</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to U</td>
-</tr>
-<tr>
-<td align="left">^</td>
 <td align="left">Shaper produced a .notdef</td>
 </tr>
 <tr>
@@ -1957,83 +1837,11 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">nus_Latn (Nuer)</td>
-<td align="left">Shaper didn't attach uni0331 to O</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to I</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to a</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to uni0254</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to o</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0308 to uni025B</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to i</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to A</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to uni0190</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to E</td>
-</tr>
-<tr>
-<td align="left">^</td>
 <td align="left">Shaper didn't attach uni0331 to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
 <td align="left">Shaper didn't attach uni0308 to uni0331</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to uni0186</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to e</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to uni025B</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to uni0190</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to a</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to A</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to e</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to E</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -2045,7 +1853,11 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to uni0190</td>
+<td align="left">Shaper didn't attach uni0308 to uni025B</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0331 to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -2062,46 +1874,14 @@ definitions.</p>
 <tr>
 <td align="left">^</td>
 <td align="left">Shaper didn't attach uni0308 to uni0331</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to uni0190</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to uni0190</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to i</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to I</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to o</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to O</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to uni0254</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to uni0186</td>
 </tr>
 <tr>
 <td align="left">ln_Latn (Lingala)</td>
-<td align="left">Shaper didn't attach acutecomb to uni025B</td>
+<td align="left">Shaper didn't attach uni030C to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach uni030C to uni025B</td>
+<td align="left">Shaper didn't attach acutecomb to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -2121,22 +1901,6 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">pnz_Latn (Pana (Central African Republic))</td>
-<td align="left">Shaper didn't attach acutecomb to uni025B</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0327 to uni025B</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0327 to uni025B</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0302 to uni0327</td>
-</tr>
-<tr>
-<td align="left">^</td>
 <td align="left">Shaper didn't attach uni0327 to uni025B</td>
 </tr>
 <tr>
@@ -2145,7 +1909,23 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">^</td>
+<td align="left">Shaper didn't attach uni0327 to uni025B</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach acutecomb to uni025B</td>
+</tr>
+<tr>
+<td align="left">^</td>
 <td align="left">Shaper didn't attach uni0302 to uni025B</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0327 to uni025B</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0302 to uni0327</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -2201,15 +1981,15 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">dgi_Latn (Northern Dagara)</td>
+<td align="left">Shaper didn't attach tildecomb to uni025B</td>
+</tr>
+<tr>
+<td align="left">^</td>
 <td align="left">Shaper didn't attach acutecomb to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
 <td align="left">Shaper didn't attach gravecomb to uni025B</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach tildecomb to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -2225,15 +2005,15 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">tcd_Latn (Tafi)</td>
+<td align="left">Shaper didn't attach tildecomb to uni025B</td>
+</tr>
+<tr>
+<td align="left">^</td>
 <td align="left">Shaper didn't attach acutecomb to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
 <td align="left">Shaper didn't attach gravecomb to uni025B</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach tildecomb to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -2274,54 +2054,6 @@ definitions.</p>
 <tr>
 <td align="left">^</td>
 <td align="left">Shaper didn't attach tildecomb to V</td>
-</tr>
-<tr>
-<td align="left">uth_Latn (ut-Hun)</td>
-<td align="left">Shaper didn't attach uni0331 to u</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to O</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to E</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to o</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to U</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to e</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to e</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to E</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to o</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to O</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to u</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to U</td>
 </tr>
 <tr>
 <td align="left">kss_Latn (Southern Kisi)</td>
@@ -2373,15 +2105,11 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">jgo_Latn (Ngomba)</td>
+<td align="left">Shaper didn't attach uni030C to uni025B</td>
+</tr>
+<tr>
+<td align="left">^</td>
 <td align="left">Shaper didn't attach acutecomb to uni025B</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach gravecomb to uni025B</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach gravecomb to eng</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -2389,15 +2117,11 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach uni030C to uni025B</td>
+<td align="left">Shaper didn't attach gravecomb to eng</td>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach uni0304 to eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach gravecomb to Eng</td>
+<td align="left">Shaper didn't attach uni0304 to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -2405,7 +2129,11 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach acutecomb to eng</td>
+<td align="left">Shaper didn't attach uni0304 to eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach gravecomb to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -2413,7 +2141,11 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach uni0304 to uni025B</td>
+<td align="left">Shaper didn't attach acutecomb to eng</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach gravecomb to Eng</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -2473,7 +2205,11 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">goa_Latn (Guro)</td>
-<td align="left">Shaper didn't attach acutecomb to uni025B</td>
+<td align="left">Shaper didn't attach uni0302 to uni028B</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni030C to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -2485,7 +2221,11 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach gravecomb to uni028B</td>
+<td align="left">Shaper didn't attach uni030C to uni028B</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach acutecomb to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -2493,11 +2233,7 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach uni030C to uni028B</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach gravecomb to uni01B2</td>
+<td align="left">Shaper didn't attach gravecomb to uni028B</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -2505,19 +2241,15 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach acutecomb to uni028B</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni030C to uni025B</td>
-</tr>
-<tr>
-<td align="left">^</td>
 <td align="left">Shaper didn't attach uni030C to uni01B2</td>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach uni0302 to uni028B</td>
+<td align="left">Shaper didn't attach acutecomb to uni028B</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach gravecomb to uni01B2</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -2589,6 +2321,10 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">^</td>
+<td align="left">Shaper didn't attach uni0307 to x</td>
+</tr>
+<tr>
+<td align="left">^</td>
 <td align="left">Shaper didn't attach uni0307 to X</td>
 </tr>
 <tr>
@@ -2597,23 +2333,23 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">kpe_Latn (Kpelle)</td>
-<td align="left">Shaper didn't attach acutecomb to uni025B</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach gravecomb to uni025B</td>
-</tr>
-<tr>
-<td align="left">^</td>
 <td align="left">Shaper didn't attach tildecomb to uni025B</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach acutecomb to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
 <td align="left">Shaper didn't attach uni0302 to uni025B</td>
 </tr>
 <tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach gravecomb to uni025B</td>
+</tr>
+<tr>
 <td align="left">fmp_Latn (Fe’fe’)</td>
-<td align="left">Shaper didn't attach uni0304 to uni0251</td>
+<td align="left">Shaper didn't attach acutecomb to uni0251</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -2621,11 +2357,11 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach acutecomb to uni0251</td>
+<td align="left">Shaper didn't attach uni030C to uni0251</td>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach uni030C to uni0251</td>
+<td align="left">Shaper didn't attach uni0304 to uni0251</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -2649,19 +2385,19 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">^</td>
+<td align="left">Shaper didn't attach tildecomb to uni025B</td>
+</tr>
+<tr>
+<td align="left">^</td>
 <td align="left">Shaper didn't attach acutecomb to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
+<td align="left">Shaper didn't attach tildecomb to uni025B</td>
+</tr>
+<tr>
+<td align="left">^</td>
 <td align="left">Shaper didn't attach gravecomb to uni025B</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach tildecomb to uni025B</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach tildecomb to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -2717,11 +2453,19 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">lee_Latn (Lyélé)</td>
-<td align="left">Shaper didn't attach acutecomb to uni025B</td>
+<td align="left">Shaper didn't attach uni030C to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
 <td align="left">Shaper didn't attach tildecomb to uni025B</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach tildecomb to uni025B</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach acutecomb to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -2730,14 +2474,6 @@ definitions.</p>
 <tr>
 <td align="left">^</td>
 <td align="left">Shaper didn't attach gravecomb to uni025B</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni030C to uni025B</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach tildecomb to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -2809,11 +2545,11 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">agq_Latn (Aghem)</td>
-<td align="left">Shaper didn't attach gravecomb to uni025B</td>
+<td align="left">Shaper didn't attach uni030C to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach uni030C to uni025B</td>
+<td align="left">Shaper didn't attach uni0304 to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -2821,7 +2557,7 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach uni0304 to uni025B</td>
+<td align="left">Shaper didn't attach gravecomb to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -2841,19 +2577,39 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">ntm_Latn (Nateni)</td>
-<td align="left">Shaper didn't attach acutecomb to uni025B</td>
+<td align="left">Shaper didn't attach uni0330 to Uacute</td>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to Iacute</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to uni0254</td>
+<td align="left">Shaper didn't attach uni0330 to ugrave</td>
 </tr>
 <tr>
 <td align="left">^</td>
 <td align="left">Shaper didn't attach uni0330 to uni0186</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0330 to U</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach acutecomb to uni025B</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0330 to I</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0330 to uni025B</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach acutecomb to uni0330</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0330 to uni0254</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -2862,6 +2618,30 @@ definitions.</p>
 <tr>
 <td align="left">^</td>
 <td align="left">Shaper didn't attach uni0330 to uni0190</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0330 to Iacute</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0330 to uni025B</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach gravecomb to uni0330</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0330 to uni0190</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0330 to igrave</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0330 to uni0186</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -2877,51 +2657,7 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to uni0190</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to Igrave</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to Aacute</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to uni025B</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to uni0254</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to uni0186</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to uni0186</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to u</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to U</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to i</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to uni0190</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to ugrave</td>
+<td align="left">Shaper didn't attach uni0330 to agrave</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -2929,31 +2665,19 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to uni025B</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach gravecomb to uni0330</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to igrave</td>
-</tr>
-<tr>
-<td align="left">^</td>
 <td align="left">Shaper didn't attach uni0330 to Ugrave</td>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to Uacute</td>
-</tr>
-<tr>
-<td align="left">^</td>
 <td align="left">Shaper didn't attach uni0330 to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach acutecomb to uni0330</td>
+<td align="left">Shaper didn't attach uni0330 to uacute</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0330 to uni0254</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -2965,15 +2689,27 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to uacute</td>
+<td align="left">Shaper didn't attach uni0330 to uni0186</td>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to agrave</td>
+<td align="left">Shaper didn't attach uni0330 to i</td>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to I</td>
+<td align="left">Shaper didn't attach uni0330 to uni0190</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0330 to Igrave</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0330 to u</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0330 to Aacute</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -3137,7 +2873,7 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">mwm_Latn (Sar)</td>
-<td align="left">Shaper didn't attach uni0330 to aacute</td>
+<td align="left">Shaper didn't attach uni0330 to oacute</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -3145,27 +2881,7 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to Eacute</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to emacron</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to e</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to Imacron</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to umacron</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to Amacron</td>
+<td align="left">Shaper didn't attach uni0330 to Iacute</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -3173,23 +2889,7 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to E</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to eacute</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to o</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to Iacute</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to a</td>
+<td align="left">Shaper didn't attach uni0330 to umacron</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -3197,55 +2897,11 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to Aacute</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to Emacron</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to u</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to U</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to i</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to imacron</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to amacron</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to Umacron</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to oacute</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to Uacute</td>
-</tr>
-<tr>
-<td align="left">^</td>
 <td align="left">Shaper didn't attach uni0330 to iacute</td>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to Oacute</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to uacute</td>
+<td align="left">Shaper didn't attach uni0330 to emacron</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -3253,7 +2909,87 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">^</td>
+<td align="left">Shaper didn't attach uni0330 to Aacute</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0330 to u</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0330 to Uacute</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0330 to Eacute</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0330 to e</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0330 to imacron</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0330 to U</td>
+</tr>
+<tr>
+<td align="left">^</td>
 <td align="left">Shaper didn't attach uni0330 to I</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0330 to Umacron</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0330 to aacute</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0330 to a</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0330 to Imacron</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0330 to E</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0330 to Emacron</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0330 to Oacute</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0330 to Amacron</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0330 to amacron</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0330 to uacute</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0330 to eacute</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0330 to i</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0330 to o</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -3397,14 +3133,6 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to c</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to C</td>
-</tr>
-<tr>
-<td align="left">^</td>
 <td align="left">Shaper didn't attach uni0331 to p</td>
 </tr>
 <tr>
@@ -3429,11 +3157,11 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach gravecomb to uni025B</td>
+<td align="left">Shaper didn't attach tildecomb to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach tildecomb to uni025B</td>
+<td align="left">Shaper didn't attach gravecomb to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -3485,7 +3213,19 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">sld_Latn (Sissala)</td>
+<td align="left">Shaper didn't attach tildecomb to uni01B2</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach tildecomb to uni025B</td>
+</tr>
+<tr>
+<td align="left">^</td>
 <td align="left">Shaper didn't attach acutecomb to uni025B</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach tildecomb to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -3501,19 +3241,7 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach tildecomb to uni01B2</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach tildecomb to uni025B</td>
-</tr>
-<tr>
-<td align="left">^</td>
 <td align="left">Shaper didn't attach tildecomb to uni028B</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach tildecomb to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -3569,7 +3297,19 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">kst_Latn (Winyé)</td>
+<td align="left">Shaper didn't attach tildecomb to uni01B2</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach tildecomb to uni025B</td>
+</tr>
+<tr>
+<td align="left">^</td>
 <td align="left">Shaper didn't attach acutecomb to uni025B</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach tildecomb to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -3585,19 +3325,7 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach tildecomb to uni01B2</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach tildecomb to uni025B</td>
-</tr>
-<tr>
-<td align="left">^</td>
 <td align="left">Shaper didn't attach tildecomb to uni028B</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach tildecomb to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -3681,7 +3409,19 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach acutecomb to uni025B</td>
+<td align="left">Shaper didn't attach tildecomb to uni01DD</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach tildecomb to uniA78D</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach gravecomb to uni0265</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0302 to uni01DD</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -3725,11 +3465,7 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">lob_Latn (Lobi)</td>
-<td align="left">Shaper didn't attach tildecomb to uni018E</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach tildecomb to uni01B2</td>
+<td align="left">Shaper didn't attach tildecomb to uni01DD</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -3737,7 +3473,11 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach tildecomb to uni01DD</td>
+<td align="left">Shaper didn't attach tildecomb to uni01B2</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach tildecomb to uni018E</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -3769,7 +3509,23 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach acutecomb to uni025B</td>
+<td align="left">Shaper didn't attach uni0302 to uni028C</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach acutecomb to uni028C</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0302 to uni028B</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0302 to uni01B2</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach acutecomb to uni01B2</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -3789,23 +3545,23 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">bsq_Latn (Bassa)</td>
-<td align="left">Shaper didn't attach acutecomb to uni025B</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach tildecomb to uni025B</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach gravecomb to uni025B</td>
-</tr>
-<tr>
-<td align="left">^</td>
 <td align="left">Shaper didn't attach uni030C to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
 <td align="left">Shaper didn't attach tildecomb to uni025B</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach tildecomb to uni025B</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach acutecomb to uni025B</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach gravecomb to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -3857,6 +3613,10 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">grb_Latn (Grebo)</td>
+<td align="left">Shaper didn't attach uni030C to uni025B</td>
+</tr>
+<tr>
+<td align="left">^</td>
 <td align="left">Shaper didn't attach gravecomb to uni025B</td>
 </tr>
 <tr>
@@ -3864,20 +3624,16 @@ definitions.</p>
 <td align="left">Shaper didn't attach uni0308 to uni025B</td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni030C to uni025B</td>
+<td align="left">ksf_Latn (Bafia)</td>
+<td align="left">Shaper didn't attach acutecomb to uni018E</td>
 </tr>
 <tr>
-<td align="left">ksf_Latn (Bafia)</td>
+<td align="left">^</td>
 <td align="left">Shaper didn't attach acutecomb to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
 <td align="left">Shaper didn't attach acutecomb to uni01DD</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach acutecomb to uni018E</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -3905,27 +3661,7 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">mcp_Latn (Makaa)</td>
-<td align="left">Shaper didn't attach acutecomb to uni025B</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0327 to uni025B</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0302 to uni025B</td>
-</tr>
-<tr>
-<td align="left">^</td>
 <td align="left">Shaper didn't attach uni030C to uni025B</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0327 to uni025B</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0302 to uni0327</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -3941,7 +3677,27 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">^</td>
+<td align="left">Shaper didn't attach uni0327 to uni025B</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0302 to uni0327</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0327 to uni025B</td>
+</tr>
+<tr>
+<td align="left">^</td>
 <td align="left">Shaper didn't attach uni030C to uni0327</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach acutecomb to uni025B</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0302 to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -4009,19 +3765,19 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">box_Latn (Buamu)</td>
+<td align="left">Shaper didn't attach tildecomb to uni025B</td>
+</tr>
+<tr>
+<td align="left">^</td>
 <td align="left">Shaper didn't attach acutecomb to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
+<td align="left">Shaper didn't attach tildecomb to uni025B</td>
+</tr>
+<tr>
+<td align="left">^</td>
 <td align="left">Shaper didn't attach gravecomb to uni025B</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach tildecomb to uni025B</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach tildecomb to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -4061,7 +3817,7 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach uni0324 to W</td>
+<td align="left">Shaper didn't attach uni0324 to w</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -4069,7 +3825,7 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach uni0324 to w</td>
+<td align="left">Shaper didn't attach uni0324 to W</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -4081,15 +3837,15 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">nyb_Latn (Nyangbo)</td>
+<td align="left">Shaper didn't attach tildecomb to uni025B</td>
+</tr>
+<tr>
+<td align="left">^</td>
 <td align="left">Shaper didn't attach acutecomb to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
 <td align="left">Shaper didn't attach gravecomb to uni025B</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach tildecomb to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -4105,11 +3861,7 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">ozm_Latn (Koonzime)</td>
-<td align="left">Shaper didn't attach acutecomb to uni025B</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0302 to oe</td>
+<td align="left">Shaper didn't attach acutecomb to oe</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -4117,11 +3869,15 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach acutecomb to oe</td>
+<td align="left">Shaper didn't attach acutecomb to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
 <td align="left">Shaper didn't attach uni0302 to uni025B</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0302 to oe</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -4153,19 +3909,19 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">lol_Latn (Mongo)</td>
-<td align="left">Shaper didn't attach acutecomb to uni025B</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach gravecomb to uni025B</td>
-</tr>
-<tr>
-<td align="left">^</td>
 <td align="left">Shaper didn't attach uni030C to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
+<td align="left">Shaper didn't attach acutecomb to uni025B</td>
+</tr>
+<tr>
+<td align="left">^</td>
 <td align="left">Shaper didn't attach uni0302 to uni025B</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach gravecomb to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -4185,6 +3941,10 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">bax_Latn (Bamun, Latin)</td>
+<td align="left">Shaper didn't attach uni030C to uni025B</td>
+</tr>
+<tr>
+<td align="left">^</td>
 <td align="left">Shaper didn't attach acutecomb to uni025B</td>
 </tr>
 <tr>
@@ -4194,10 +3954,6 @@ definitions.</p>
 <tr>
 <td align="left">^</td>
 <td align="left">Shaper didn't attach gravecomb to uni025B</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni030C to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -4221,6 +3977,10 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">nnh_Latn (Ngiemboon)</td>
+<td align="left">Shaper didn't attach uni030C to uni025B</td>
+</tr>
+<tr>
+<td align="left">^</td>
 <td align="left">Shaper didn't attach acutecomb to uni025B</td>
 </tr>
 <tr>
@@ -4230,10 +3990,6 @@ definitions.</p>
 <tr>
 <td align="left">^</td>
 <td align="left">Shaper didn't attach gravecomb to uni025B</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni030C to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -4268,28 +4024,28 @@ definitions.</p>
 <td align="left">Shaper didn't attach acutecomb to uni025B</td>
 </tr>
 <tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to e</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to E</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to o</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to O</td>
-</tr>
-<tr>
 <td align="left">dnj_Latn (Dan)</td>
 <td align="left">Some base glyphs were missing: Ɯ, Ɯ̀, Ɯ́, Ɯ̂, Ɯ̄, Ɯ̋, Ɯ̏, ɤ, ɤ̀, ɤ́, ɤ̂, ɤ̄, ɤ̋, ɤ̏, ɯ, ɯ̀, ɯ́, ɯ̂, ɯ̄, ɯ̋, ɯ̏, Ɤ, Ɤ̀, Ɤ́, Ɤ̂, Ɤ̄, Ɤ̋, Ɤ̏</td>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach acutecomb to uni025B</td>
+<td align="left">Shaper didn't attach uni0302 to uni028C</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni030F to OE</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach acutecomb to uni028C</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni030B to uni028C</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach acutecomb to oe</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -4393,11 +4149,11 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">vai_Latn (Vai (Latin))</td>
-<td align="left">Shaper didn't attach acutecomb to uni025B</td>
+<td align="left">Shaper didn't attach tildecomb to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach tildecomb to uni025B</td>
+<td align="left">Shaper didn't attach acutecomb to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -4409,6 +4165,10 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">bfd_Latn (Bafut)</td>
+<td align="left">Shaper didn't attach uni030C to uni025B</td>
+</tr>
+<tr>
+<td align="left">^</td>
 <td align="left">Shaper didn't attach acutecomb to uni025B</td>
 </tr>
 <tr>
@@ -4418,10 +4178,6 @@ definitions.</p>
 <tr>
 <td align="left">^</td>
 <td align="left">Shaper didn't attach gravecomb to uni025B</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni030C to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -4441,47 +4197,7 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">sba_Latn (Ngambay)</td>
-<td align="left">Shaper didn't attach uni0330 to o</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to Egrave</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to aacute</td>
-</tr>
-<tr>
-<td align="left">^</td>
 <td align="left">Shaper didn't attach uni0330 to Eacute</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to a</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to A</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to Aacute</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to u</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to U</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to uni0259</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to i</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -4489,19 +4205,7 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to egrave</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to O</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to uni018F</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to E</td>
+<td align="left">Shaper didn't attach uni0330 to U</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -4509,7 +4213,59 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">^</td>
+<td align="left">Shaper didn't attach uni0330 to aacute</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0330 to uni0259</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0330 to egrave</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0330 to a</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0330 to uni018F</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0330 to A</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0330 to Egrave</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0330 to E</td>
+</tr>
+<tr>
+<td align="left">^</td>
 <td align="left">Shaper didn't attach uni0330 to eacute</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0330 to O</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0330 to i</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0330 to o</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0330 to u</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0330 to Aacute</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -4577,19 +4333,19 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">bqc_Latn (Boko)</td>
+<td align="left">Shaper didn't attach tildecomb to uni025B</td>
+</tr>
+<tr>
+<td align="left">^</td>
 <td align="left">Shaper didn't attach acutecomb to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
+<td align="left">Shaper didn't attach tildecomb to uni025B</td>
+</tr>
+<tr>
+<td align="left">^</td>
 <td align="left">Shaper didn't attach gravecomb to uni025B</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach tildecomb to uni025B</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach tildecomb to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -4633,10 +4389,6 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach acutecomb to uni025B</td>
-</tr>
-<tr>
-<td align="left">^</td>
 <td align="left">Shaper produced a .notdef</td>
 </tr>
 <tr>
@@ -4669,6 +4421,10 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">bbj_Latn (Ghomala)</td>
+<td align="left">Shaper didn't attach uni030C to uni025B</td>
+</tr>
+<tr>
+<td align="left">^</td>
 <td align="left">Shaper didn't attach acutecomb to uni025B</td>
 </tr>
 <tr>
@@ -4681,10 +4437,6 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach uni030C to uni025B</td>
-</tr>
-<tr>
-<td align="left">^</td>
 <td align="left">Shaper didn't attach gravecomb to uni025B</td>
 </tr>
 <tr>
@@ -4698,70 +4450,6 @@ definitions.</p>
 <tr>
 <td align="left">^</td>
 <td align="left">Shaper didn't attach uni030C to uni025B</td>
-</tr>
-<tr>
-<td align="left">kcg_Latn (Tyap)</td>
-<td align="left">Shaper didn't attach uni0331 to i</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to Iacute</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to I</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to A</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to a</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to iacute</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to Aacute</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to aacute</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to a</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to A</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to aacute</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to Aacute</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to i</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to I</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to iacute</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to Iacute</td>
 </tr>
 <tr>
 <td align="left">biv_Latn (Birifor, Southern)</td>
@@ -4773,15 +4461,15 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">ee_Latn (Ewe)</td>
+<td align="left">Shaper didn't attach tildecomb to uni025B</td>
+</tr>
+<tr>
+<td align="left">^</td>
 <td align="left">Shaper didn't attach acutecomb to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
 <td align="left">Shaper didn't attach gravecomb to uni025B</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach tildecomb to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -4797,7 +4485,7 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">tik_Latn (Tikar)</td>
-<td align="left">Shaper didn't attach gravecomb to uni025B</td>
+<td align="left">Shaper didn't attach uni030C to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -4805,15 +4493,15 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach uni030C to uni025B</td>
+<td align="left">Shaper didn't attach uni0302 to uni025B</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach gravecomb to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
 <td align="left">Shaper didn't attach gravecomb to Eng</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0302 to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -4853,7 +4541,15 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">gna_Latn (Kaansa)</td>
-<td align="left">Shaper didn't attach acutecomb to uni025B</td>
+<td align="left">Shaper didn't attach uni0302 to uni028B</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni030C to uni025B</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach tildecomb to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -4869,7 +4565,15 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach tildecomb to uni028B</td>
+<td align="left">Shaper didn't attach tildecomb to uni025B</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach tildecomb to uni01B2</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach acutecomb to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -4881,27 +4585,11 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach uni030C to uni025B</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach tildecomb to uni01B2</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach tildecomb to uni025B</td>
-</tr>
-<tr>
-<td align="left">^</td>
 <td align="left">Shaper didn't attach tildecomb to uni028B</td>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach uni0302 to uni028B</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach tildecomb to uni025B</td>
+<td align="left">Shaper didn't attach tildecomb to uni028B</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -4984,70 +4672,6 @@ definitions.</p>
 <td align="left">Shaper produced a .notdef</td>
 </tr>
 <tr>
-<td align="left">ema_Latn (Emai-Iuleha-Ora)</td>
-<td align="left">Shaper didn't attach uni0331 to O</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to E</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to Otilde</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to o</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to e</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to uni1EBD</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to otilde</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to uni1EBC</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to e</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to E</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to uni1EBD</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to uni1EBC</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to o</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to O</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to otilde</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to Otilde</td>
-</tr>
-<tr>
 <td align="left">ktz_Latn (Juǀʼhoan)</td>
 <td align="left">Some base glyphs were missing: ǀ, ǁ, ǂ, ǃ</td>
 </tr>
@@ -5057,19 +4681,7 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">nmg_Latn (Kwasio)</td>
-<td align="left">Shaper didn't attach acutecomb to uni025B</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach acutecomb to uni018E</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0302 to uni025B</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0304 to uni025B</td>
+<td align="left">Shaper didn't attach uni030C to uni018E</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -5077,19 +4689,11 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach uni0304 to uni01DD</td>
+<td align="left">Shaper didn't attach acutecomb to uni018E</td>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach uni0302 to uni018E</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach acutecomb to uni01DD</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni030C to uni01DD</td>
+<td align="left">Shaper didn't attach uni0304 to uni018E</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -5097,11 +4701,31 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach uni030C to uni018E</td>
+<td align="left">Shaper didn't attach uni0304 to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach uni0304 to uni018E</td>
+<td align="left">Shaper didn't attach uni0304 to uni01DD</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach acutecomb to uni025B</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0302 to uni025B</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0302 to uni018E</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni030C to uni01DD</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach acutecomb to uni01DD</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -5153,11 +4777,11 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">mql_Latn (Mbelime)</td>
-<td align="left">Shaper didn't attach uni0330 to u</td>
+<td align="left">Shaper didn't attach uni0330 to U</td>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to U</td>
+<td align="left">Shaper didn't attach uni0330 to I</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -5165,11 +4789,11 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to I</td>
+<td align="left">Shaper didn't attach uni0330 to u</td>
 </tr>
 <tr>
 <td align="left">neb_Latn (Toura)</td>
-<td align="left">Shaper didn't attach gravecomb to uni01B2</td>
+<td align="left">Shaper didn't attach uni0302 to uni028B</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -5177,15 +4801,7 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach uni0302 to uni01B2</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach gravecomb to uni025B</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach acutecomb to uni01B2</td>
+<td align="left">Shaper didn't attach uni0302 to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -5193,15 +4809,23 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">^</td>
+<td align="left">Shaper didn't attach uni0302 to uni01B2</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach acutecomb to uni01B2</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach gravecomb to uni025B</td>
+</tr>
+<tr>
+<td align="left">^</td>
 <td align="left">Shaper didn't attach acutecomb to uni028B</td>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach uni0302 to uni028B</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0302 to uni025B</td>
+<td align="left">Shaper didn't attach gravecomb to uni01B2</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -5241,11 +4865,11 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">loq_Latn (Lobala)</td>
-<td align="left">Shaper didn't attach acutecomb to uni025B</td>
+<td align="left">Shaper didn't attach gravecomb to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach gravecomb to uni025B</td>
+<td align="left">Shaper didn't attach acutecomb to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -5257,11 +4881,11 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">kkj_Latn (Kako)</td>
-<td align="left">Shaper didn't attach acutecomb to uni025B</td>
+<td align="left">Shaper didn't attach uni0327 to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach uni0327 to uni025B</td>
+<td align="left">Shaper didn't attach acutecomb to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -5309,83 +4933,11 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">mge_Latn (Mango)</td>
-<td align="left">Shaper didn't attach uni0330 to Egrave</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to uni0254</td>
+<td align="left">Shaper didn't attach uni0330 to Uacute</td>
 </tr>
 <tr>
 <td align="left">^</td>
 <td align="left">Shaper didn't attach uni0330 to uni0186</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to aacute</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to N</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to a</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to A</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to uni0259</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to uni018F</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to Igrave</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to Aacute</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to uni025B</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to uni0254</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to uni0186</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to uni0186</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to u</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to U</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to uni0259</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to i</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to uni0190</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -5397,6 +4949,34 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">^</td>
+<td align="left">Shaper didn't attach uni0330 to uni018F</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0330 to N</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0330 to U</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0330 to I</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0330 to uni0254</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0330 to aacute</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0330 to uni0259</td>
+</tr>
+<tr>
+<td align="left">^</td>
 <td align="left">Shaper didn't attach uni0330 to n</td>
 </tr>
 <tr>
@@ -5405,11 +4985,15 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to Agrave</td>
+<td align="left">Shaper didn't attach uni0330 to igrave</td>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to igrave</td>
+<td align="left">Shaper didn't attach uni0330 to uni0186</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0330 to a</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -5417,7 +5001,39 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to Uacute</td>
+<td align="left">Shaper didn't attach uni0330 to A</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0330 to agrave</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0330 to Agrave</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0330 to Egrave</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0330 to E</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0330 to uacute</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0330 to uni025B</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0330 to uni0254</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0330 to uni0259</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -5429,19 +5045,27 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to uacute</td>
+<td align="left">Shaper didn't attach uni0330 to uni0186</td>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to E</td>
+<td align="left">Shaper didn't attach uni0330 to i</td>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to agrave</td>
+<td align="left">Shaper didn't attach uni0330 to uni0190</td>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to I</td>
+<td align="left">Shaper didn't attach uni0330 to Igrave</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0330 to u</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0330 to Aacute</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -5669,39 +5293,11 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">kia_Latn (Kim)</td>
-<td align="left">Shaper didn't attach uni0330 to o</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to a</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to A</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to u</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to U</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to i</td>
-</tr>
-<tr>
-<td align="left">^</td>
 <td align="left">Shaper didn't attach uni0330 to e</td>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to E</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0330 to O</td>
+<td align="left">Shaper didn't attach uni0330 to U</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -5717,6 +5313,34 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">^</td>
+<td align="left">Shaper didn't attach uni0330 to E</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0330 to O</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0330 to i</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0330 to o</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0330 to u</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0330 to a</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0330 to A</td>
+</tr>
+<tr>
+<td align="left">^</td>
 <td align="left">Shaper didn't attach uni0330 to o</td>
 </tr>
 <tr>
@@ -5724,103 +5348,11 @@ definitions.</p>
 <td align="left">Shaper didn't attach uni0330 to O</td>
 </tr>
 <tr>
-<td align="left">fvr_Latn (Fur)</td>
-<td align="left">Shaper didn't attach uni0331 to acircumflex</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to uni01CE</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to a</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to Acircumflex</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to Aacute</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to aacute</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to A</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to uni01CD</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to a</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to A</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to aacute</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to Aacute</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to acircumflex</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to Acircumflex</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to uni01CE</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to uni01CD</td>
-</tr>
-<tr>
-<td align="left">saf_Latn (Safaliba)</td>
-<td align="left">Shaper didn't attach uni0331 to O</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to o</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to E</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to e</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to e</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to E</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to o</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to O</td>
-</tr>
-<tr>
 <td align="left">sbd_Latn (Southern Samo)</td>
+<td align="left">Shaper didn't attach uni030C to uni025B</td>
+</tr>
+<tr>
+<td align="left">^</td>
 <td align="left">Shaper didn't attach acutecomb to uni025B</td>
 </tr>
 <tr>
@@ -5830,10 +5362,6 @@ definitions.</p>
 <tr>
 <td align="left">^</td>
 <td align="left">Shaper didn't attach uni0308 to uni025B</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni030C to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -5853,23 +5381,7 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">tuz_Latn (Turka)</td>
-<td align="left">Shaper didn't attach acutecomb to uni025B</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach gravecomb to uni018E</td>
-</tr>
-<tr>
-<td align="left">^</td>
 <td align="left">Shaper didn't attach tildecomb to uni01DD</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach tildecomb to uni01DD</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach gravecomb to uni01DD</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -5877,27 +5389,7 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach tildecomb to uni018E</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach gravecomb to uni025B</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach tildecomb to uni018E</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach acutecomb to uni01DD</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach tildecomb to uni025B</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach tildecomb to uni025B</td>
+<td align="left">Shaper didn't attach tildecomb to uni01DD</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -5910,6 +5402,42 @@ definitions.</p>
 <tr>
 <td align="left">^</td>
 <td align="left">Shaper didn't attach tildecomb to uni018E</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach tildecomb to uni018E</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach tildecomb to uni025B</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach tildecomb to uni018E</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach acutecomb to uni025B</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach gravecomb to uni01DD</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach gravecomb to uni018E</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach gravecomb to uni025B</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach tildecomb to uni025B</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach acutecomb to uni01DD</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -5997,11 +5525,11 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">soy_Latn (Miyobe)</td>
-<td align="left">Shaper didn't attach acutecomb to uni025B</td>
+<td align="left">Shaper didn't attach tildecomb to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach tildecomb to uni025B</td>
+<td align="left">Shaper didn't attach acutecomb to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -6025,19 +5553,19 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">bom_Latn (Berom)</td>
-<td align="left">Shaper didn't attach acutecomb to uni025B</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach gravecomb to uni025B</td>
-</tr>
-<tr>
-<td align="left">^</td>
 <td align="left">Shaper didn't attach uni030C to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
+<td align="left">Shaper didn't attach acutecomb to uni025B</td>
+</tr>
+<tr>
+<td align="left">^</td>
 <td align="left">Shaper didn't attach uni0302 to uni025B</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach gravecomb to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -6081,19 +5609,19 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">blo_Latn (Anii)</td>
-<td align="left">Shaper didn't attach acutecomb to uni025B</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach gravecomb to uni018E</td>
-</tr>
-<tr>
-<td align="left">^</td>
 <td align="left">Shaper didn't attach uni0302 to uni01DD</td>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach gravecomb to uni025B</td>
+<td align="left">Shaper didn't attach acutecomb to uni018E</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach acutecomb to uni025B</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0302 to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -6105,15 +5633,15 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">^</td>
+<td align="left">Shaper didn't attach gravecomb to uni018E</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach gravecomb to uni025B</td>
+</tr>
+<tr>
+<td align="left">^</td>
 <td align="left">Shaper didn't attach acutecomb to uni01DD</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach acutecomb to uni018E</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0302 to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -6161,15 +5689,15 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">bqp_Latn (Bisã)</td>
+<td align="left">Shaper didn't attach tildecomb to uni025B</td>
+</tr>
+<tr>
+<td align="left">^</td>
 <td align="left">Shaper didn't attach acutecomb to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
 <td align="left">Shaper didn't attach gravecomb to uni025B</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach tildecomb to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -6205,11 +5733,11 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach gravecomb to uni025B</td>
+<td align="left">Shaper didn't attach tildecomb to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach tildecomb to uni025B</td>
+<td align="left">Shaper didn't attach gravecomb to uni025B</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -6470,22 +5998,6 @@ definitions.</p>
 <tr>
 <td align="left">^</td>
 <td align="left">Shaper didn't attach gravecomb to uni025B</td>
-</tr>
-<tr>
-<td align="left">asg_Latn (Cishingini)</td>
-<td align="left">Shaper didn't attach uni0331 to A</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to a</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to a</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0331 to A</td>
 </tr>
 </tbody>
 </table>
@@ -7632,8 +7144,8 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 4 | 10 | 116 | 6 | 113 | 0 | 
-| 0% | 0% | 2% | 4% | 47% | 2% | 45% | 0% | 
+| 0 | 0 | 4 | 9 | 116 | 6 | 114 | 0 | 
+| 0% | 0% | 2% | 4% | 47% | 2% | 46% | 0% | 
 
 
 
