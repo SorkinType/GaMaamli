@@ -98966,9 +98966,15 @@ width = 570;
 },
 {
 glyphname = fi;
-lastChange = "2024-05-10 13:09:58 +0000";
+lastChange = "2024-05-10 13:12:06 +0000";
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+pos = (317,0);
+}
+);
 background = {
 shapes = (
 {
@@ -99158,9 +99164,15 @@ unicode = 64257;
 },
 {
 glyphname = fl;
-lastChange = "2024-05-10 13:09:58 +0000";
+lastChange = "2024-05-10 13:12:06 +0000";
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+pos = (410.5,0);
+}
+);
 background = {
 shapes = (
 {
