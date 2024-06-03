@@ -5,9 +5,9 @@
 # Names should be added to this file as:
 # Name or Organization <email address>
 
-Ama Asantewa Diaka <amaadiaka@gmail.com>
-Annertey <n.annertey@gmail.com>
-Afotey Clement Nii Odai
-David Abbey-Thompson
+Afotey Clement Nii Odai <vikersjunior@gmail.com>
+Ama Diaka <amaadiaka@gmail.com>
+David Abbey-Thompson <design@annertey.com>
+
 
 
